@@ -67,6 +67,8 @@ urlpatterns = (
     # subsumed by api/user listed below.
     url(r'^user_api/', include('openedx.core.djangoapps.user_api.legacy_urls')),
 
+    url(r'^custom_api/', include('django-edx-courseware.urls')),
+
     url(r'^notifier_api/', include('notifier_api.urls')),
 
     url(r'^i18n/', include('django.conf.urls.i18n')),

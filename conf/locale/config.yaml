@@ -37,7 +37,7 @@ locales:
     # - gl  # Galician
     # - gu  # Gujarati
     - he  # Hebrew
-    - hi  # Hindi
+    # - hi  # Hindi
     # - hr  # Croatian
     # - hu  # Hungarian
     # - hy_AM  # Armenian (Armenia)
