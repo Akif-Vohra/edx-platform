@@ -102,11 +102,11 @@ git+https://github.com/edx/xblock-lti-consumer.git@v1.0.0#egg=xblock-lti-consume
 -e git+https://github.com/open-craft/xblock-poll@e7a6c95c300e95c51e42bfd1eba70489c05a6527#egg=xblock-poll
 
 #Lynx specific xblocks
--e git+https://github.com/mjrulesamrat/lynxszenario#egg=Package
--e git+https://github.com/mjrulesamrat/ComplexHTML-XBlock#egg=Package
--e git+https://github.com/mjrulesamrat/lynxcheckpoint#egg=Package
--e git+https://github.com/mjrulesamrat/lynxtable#egg=Package
+-e git+https://github.com/mjrulesamrat/lynxszenario#egg=lynxszenario
+-e git+https://github.com/mjrulesamrat/ComplexHTML-XBlock#egg=complex-html-block
+-e git+https://github.com/mjrulesamrat/lynxcheckpoint#egg=lynxcheckpoint
+-e git+https://github.com/mjrulesamrat/lynxtable#egg=lynxtable
 
 #Lynx specific custom apps
--e git+https://github.com/mjrulesamrat/lynxceb#egg=Package
--e git+https://github.com/mjrulesamrat/django-edx-courseware#egg=Package
+-e git+https://github.com/mjrulesamrat/lynxceb#egg=lynxceb
+-e git+https://github.com/mjrulesamrat/django-edx-courseware#egg=django-edx-courseware
