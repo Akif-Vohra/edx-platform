@@ -1944,6 +1944,7 @@ INSTALLED_APPS = (
 
     #Custom apps.
     'lynxceb',
+    'django-edx-courseware',
 )
 
 # Migrations which are not in the standard module "migrations"
