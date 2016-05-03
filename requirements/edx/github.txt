@@ -108,5 +108,5 @@ git+https://github.com/edx/xblock-lti-consumer.git@v1.0.0#egg=xblock-lti-consume
 -e git+https://github.com/mjrulesamrat/lynxtable
 
 #Lynx specific custom apps
--e git+https://github.com/mjrulesamrat/lynxceb
--e git+https://github.com/mjrulesamrat/django-edx-courseware
+-e git+https://github.com/mjrulesamrat/lynxceb#egg=Package
+-e git+https://github.com/mjrulesamrat/django-edx-courseware#egg=Package
