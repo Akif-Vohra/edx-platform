@@ -87,6 +87,9 @@ urlpatterns = (
 
     # Course API
     url(r'^api/courses/', include('course_api.urls')),
+    
+    #Lynx custom course data API
+    url(r'^custom_api/', include('django-edx-courseware.urls')),
 
     # User API endpoints
     url(r'^api/user/', include('openedx.core.djangoapps.user_api.urls')),
