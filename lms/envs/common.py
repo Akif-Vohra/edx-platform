@@ -1941,6 +1941,10 @@ INSTALLED_APPS = (
     'openedx.core.djangoapps.self_paced',
 
     'sorl.thumbnail',
+
+    #Lynx custom apps
+    'lynxceb',
+    'django-edx-courseware',
 )
 
 # Migrations which are not in the standard module "migrations"
