@@ -151,8 +151,10 @@ generate_merge:
         - mako-studio.po
         - messages.po
         - wiki.po
+        - lynx-extra.po
     djangojs.po:
         - djangojs-partial.po
         - djangojs-studio.po
         - underscore.po
         - underscore-studio.po
+        - lynx-extrajs.po
