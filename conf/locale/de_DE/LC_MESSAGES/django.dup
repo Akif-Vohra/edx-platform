@@ -1,0 +1,108 @@
+Multiple translations found for single string.
+	String "Honor"
+	Present in files [u'common/djangoapps/course_modes/models.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Teilnahmemodus
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Ehrenkodex
+
+Multiple translations found for single string.
+	String "Email or password is incorrect."
+	Present in files [u'common/djangoapps/student/views.py', u'lms/templates/provider_login.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+E-Mail oder Passwort sind falsch.
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+E-Mail oder Password ist falsch.
+
+Multiple translations found for single string.
+	String "Username"
+	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor/views/tools.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/staff_problem_info.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Nutzername
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Benutzername
+
+Multiple translations found for single string.
+	String "Grade"
+	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Note
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Bewertung
+
+Multiple translations found for single string.
+	String "username"
+	Present in files [u'lms/djangoapps/dashboard/sysadmin.py', u'lms/templates/tracking_log.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Nutzername
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Benutzername
+
+Multiple translations found for single string.
+	String "Staff"
+	Present in files [u'lms/djangoapps/instructor/paidcourse_enrollment_report.py', u'lms/templates/courseware/course_navigation.html', u'lms/templates/instructor/instructor_dashboard_2/membership.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Mitarbeiter
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Lehrender
+
+Multiple translations found for single string.
+	String "Mailing Address"
+	Present in files [u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/register-form.html', u'themes/stanford-style/lms/templates/register-form.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Postanschrift
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+E-Mail-Adressen
+
+Multiple translations found for single string.
+	String "Course ID"
+	Present in files [u'lms/djangoapps/support/views/refund.py', u'lms/templates/sysadmin_dashboard_gitlogs.html', u'lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html', u'lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Kurs-ID
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Kurs ID
+
+Multiple translations found for single string.
+	String "Skip to main content"
+	Present in files [u'lms/templates/main_django.html', u'cms/templates/base.html', u'lms/templates/main.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Zu den Inhalten springen
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Springe zu den Inhalten
+
+Multiple translations found for single string.
+	String "Search"
+	Present in files [u'lms/templates/wiki/plugins/attachments/index.html', u'lms/templates/dashboard.html', u'lms/templates/index.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/courseware/courses.html', u'lms/templates/edxnotes/edxnotes.html', u'themes/edx.org/lms/templates/dashboard.html', u'themes/stanford-style/lms/templates/index.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Suche
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Suchen
+
+Multiple translations found for single string.
+	String "Remember me"
+	Present in files [u'openedx/core/djangoapps/user_api/views.py', u'lms/templates/login.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Angemeldet bleiben.
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Angemeldet bleiben
+
+Multiple translations found for single string.
+	String "Mailing address"
+	Present in files [u'openedx/core/djangoapps/user_api/views.py', u'lms/templates/signup_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Postanschrift - optional
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+E-Mail-Adresse
+

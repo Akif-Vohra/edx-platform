@@ -1,0 +1,36 @@
+Multiple translations found for single string.
+	String "Search"
+	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'common/static/common/templates/components/search-field.underscore', u'lms/djangoapps/support/static/support/templates/certificates.underscore', u'lms/djangoapps/support/static/support/templates/enrollment.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Suche
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Suchen
+
+Multiple translations found for single string.
+	String "The country that team members primarily identify with."
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js', u'lms/djangoapps/teams/static/teams/templates/team-profile.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Das Land mit dem sich die Teammitglieder primär identifizieren
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Das Land mit dem sich die Teammitglieder primär identifizieren.
+
+Multiple translations found for single string.
+	String "Username"
+	Present in files [u'lms/static/coffee/src/instructor_dashboard/membership.js', u'lms/static/js/student_account/views/account_settings_factory.js', u'lms/static/js/student_profile/views/learner_profile_factory.js', u'lms/templates/financial-assistance/financial_assessment_form.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Benutzername
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Nutzername
+
+Multiple translations found for single string.
+	String "Staff"
+	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/post-user-display.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+Lehrender
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Mitarbeiter
+

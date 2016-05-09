@@ -128,8 +128,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-05-09 15:13+0530\n"
-"PO-Revision-Date: 2016-05-09 15:14+0530\n"
+"POT-Creation-Date: 2016-05-09 16:02+0530\n"
+"PO-Revision-Date: 2016-05-09 16:07+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21090,6 +21090,37 @@ msgstr ""
 "erfolgreich abgeschlossenen Kurs"
 
 #: lynx_extra.py
-msgid ""
-"a course of study offered by {partner_short_name}, through {platform_name}."
+msgid "a course of study offered by {partner_short_name}, an online learning "
 msgstr "angeboten über {partner_short_name}"
+
+#: lynx_extra.py
+msgid "for Student"
+msgstr ""
+
+#: lynx_extra.py
+msgid "Focus in on specific topics"
+msgstr "Nach Themen eingrenzen"
+
+#: lynx_extra.py
+msgid "Search for specific posts"
+msgstr "Nach Beiträgen suchen"
+
+#: lynx_extra.py
+msgid "Sort by date, vote, or comments"
+msgstr "Nach Datum, Kommentaren oder Bewertung sortieren"
+
+#: lynx_extra.py
+msgid "Upvote posts and good responses"
+msgstr "Beiträge und Antworten bewerten"
+
+#: lynx_extra.py
+msgid "Report Forum Misuse"
+msgstr "Spam markieren"
+
+#: lynx_extra.py
+msgid "Follow posts for updates"
+msgstr "Beiträgen folgen"
+
+#: lynx_extra.py
+msgid "Course Updates &amp; News"
+msgstr "Aktuelles"
