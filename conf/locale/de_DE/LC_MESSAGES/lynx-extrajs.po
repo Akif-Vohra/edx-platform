@@ -1,0 +1,77 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-09 16:02+0530\n"
+"PO-Revision-Date: 2016-05-09 16:07+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: lynx_extra.py\n"
+
+#: lynx_extra.py
+#, python-brace-format
+msgid "{fullname}, you've earned a certificate!"
+msgstr "{fullname}, Sie haben ein Zertifikat erhalten!"
+
+#: lynx_extra.py
+msgid ""
+"Congratulations! This page summarizes all of the details of what you've "
+"accomplished. Show it off to family, friends, and colleagues in your social "
+"and professional networks."
+msgstr ""
+"Herzlichen Glückwunsch! Hier finden Sie Ihr Zertifikat. Teilen Sie Ihren "
+"Erfolg mit Ihrer Familie, Ihren Freunden und Kollegen oder in Ihren sozialen"
+" Netzwerken. "
+
+#: lynx_extra.py
+#, python-brace-format
+msgid ""
+"successfully completed, received a passing grade, and was awarded a "
+"{platform_name} {certificate_type} Certificate of Completion in "
+msgstr ""
+"wird mit einem {platform_name} {certificate_type} ausgezeichnet für den "
+"erfolgreich abgeschlossenen Kurs"
+
+#: lynx_extra.py
+#, python-brace-format
+msgid "a course of study offered by {partner_short_name}, an online learning "
+msgstr "angeboten über {partner_short_name}"
+
+#: lynx_extra.py
+msgid "for Student"
+msgstr ""
+
+#: lynx_extra.py
+msgid "Focus in on specific topics"
+msgstr "Nach Themen eingrenzen"
+
+#: lynx_extra.py
+msgid "Search for specific posts"
+msgstr "Nach Beiträgen suchen"
+
+#: lynx_extra.py
+msgid "Sort by date, vote, or comments"
+msgstr "Nach Datum, Kommentaren oder Bewertung sortieren"
+
+#: lynx_extra.py
+msgid "Upvote posts and good responses"
+msgstr "Beiträge und Antworten bewerten"
+
+#: lynx_extra.py
+msgid "Report Forum Misuse"
+msgstr "Spam markieren"
+
+#: lynx_extra.py
+msgid "Follow posts for updates"
+msgstr "Beiträgen folgen"
+
+#: lynx_extra.py
+msgid "Course Updates &amp; News"
+msgstr "Aktuelles"
