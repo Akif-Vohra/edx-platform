@@ -1,11 +1,22 @@
 Multiple translations found for single string.
+	String "Discussion"
+	Present in files [u'cms/djangoapps/contentstore/views/component.py', u'lms/djangoapps/courseware/tabs.py', u'lms/djangoapps/django_comment_client/forum/views.py']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Forum
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Diskussion
+
+Multiple translations found for single string.
 	String "Honor"
-	Present in files [u'common/djangoapps/course_modes/models.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+	Present in files [u'common/djangoapps/course_modes/models.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html', u'lms/envs/devstack.py']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 Teilnahmemodus
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Ehrenkodex
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Teilnahmemodus
 
 Multiple translations found for single string.
 	String "Email or password is incorrect."
@@ -15,15 +26,39 @@ Translations found were:
 E-Mail oder Passwort sind falsch.
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 E-Mail oder Password ist falsch.
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+E-Mail oder Passwort sind falsch.
+
+Multiple translations found for single string.
+	String "Correct"
+	Present in files [u'common/lib/capa/capa/responsetypes.py']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Korrekt
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Richtig
+
+Multiple translations found for single string.
+	String "None"
+	Present in files [u'common/lib/xmodule/xmodule/course_module.py', u'cms/templates/settings.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+kein
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+kein
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Kein
 
 Multiple translations found for single string.
 	String "Username"
-	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor/views/tools.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/staff_problem_info.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
+	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor/views/tools.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/staff_problem_info.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/instructor/instructor_dashboard_2/metrics.html', u'lms/djangoapps/instructor/views/legacy.py']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 Nutzername
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Benutzername
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Nutzername
 
 Multiple translations found for single string.
 	String "Grade"
@@ -33,6 +68,8 @@ Translations found were:
 Note
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Bewertung
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Note
 
 Multiple translations found for single string.
 	String "username"
@@ -42,6 +79,8 @@ Translations found were:
 Nutzername
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Benutzername
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Nutzername
 
 Multiple translations found for single string.
 	String "Staff"
@@ -51,15 +90,19 @@ Translations found were:
 Mitarbeiter
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Lehrender
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Mitarbeiter
 
 Multiple translations found for single string.
 	String "Mailing Address"
-	Present in files [u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/register-form.html', u'themes/stanford-style/lms/templates/register-form.html']
+	Present in files [u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor_task/tasks_helper.py', u'lms/templates/register-form.html', u'themes/stanford-style/lms/templates/register-form.html', u'lms/templates/register.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 Postanschrift
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 E-Mail-Adressen
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Postanschrift
 
 Multiple translations found for single string.
 	String "Course ID"
@@ -69,6 +112,8 @@ Translations found were:
 Kurs-ID
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Kurs ID
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Kurs-ID
 
 Multiple translations found for single string.
 	String "Skip to main content"
@@ -78,14 +123,18 @@ Translations found were:
 Zu den Inhalten springen
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Springe zu den Inhalten
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Springe zu den Inhalten
 
 Multiple translations found for single string.
 	String "Search"
-	Present in files [u'lms/templates/wiki/plugins/attachments/index.html', u'lms/templates/dashboard.html', u'lms/templates/index.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/courseware/courses.html', u'lms/templates/edxnotes/edxnotes.html', u'themes/edx.org/lms/templates/dashboard.html', u'themes/stanford-style/lms/templates/index.html']
+	Present in files [u'lms/templates/wiki/plugins/attachments/index.html', u'lms/templates/dashboard.html', u'lms/templates/index.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/courseware/courses.html', u'lms/templates/edxnotes/edxnotes.html', u'themes/edx.org/lms/templates/dashboard.html', u'themes/stanford-style/lms/templates/index.html', u'lms/templates/discussion/_thread_list_template.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 Suche
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Suchen
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
 Suchen
 
 Multiple translations found for single string.
@@ -96,6 +145,8 @@ Translations found were:
 Angemeldet bleiben.
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Angemeldet bleiben
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Angemeldet bleiben.
 
 Multiple translations found for single string.
 	String "Mailing address"
@@ -105,4 +156,114 @@ Translations found were:
 Postanschrift - optional
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 E-Mail-Adresse
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Postanschrift - optional
+
+Multiple translations found for single string.
+	String "Courses"
+	Present in files [u'cms/templates/index.html', u'lms/templates/navigation.html', u'lms/templates/sysadmin_dashboard.html', u'lms/templates/sysadmin_dashboard_gitlogs.html', u'lms/templates/courseware/courses.html', u'themes/edx.org/lms/templates/header.html', u'themes/red-theme/lms/templates/header.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Kurs
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Kurse
+
+Multiple translations found for single string.
+	String "View"
+	Present in files [u'cms/templates/studio_xblock_wrapper.html', u'lms/templates/wiki/includes/article_menu.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Ansicht
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Anzeigen
+
+Multiple translations found for single string.
+	String "Collapse Instructions"
+	Present in files [u'lms/templates/annotatable.html', u'lms/templates/imageannotation.html', u'lms/templates/textannotation.html', u'lms/templates/videoannotation.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Anleitungen verbergen
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Anweisungen verbergen
+
+Multiple translations found for single string.
+	String "Hide Annotations"
+	Present in files [u'lms/templates/annotatable.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Annotationen verstecken
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Anmerkungen verstecken
+
+Multiple translations found for single string.
+	String "Need Help?"
+	Present in files [u'lms/templates/login-sidebar.html', u'lms/templates/register-sidebar.html', u'themes/stanford-style/lms/templates/register-sidebar.html', u'lms/templates/registration/password_reset_confirm.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Hilfe?
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Benötigen Sie Hilfe?
+
+Multiple translations found for single string.
+	String "We couldn't log you in."
+	Present in files [u'lms/templates/login.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+We konnten dich nicht anmelden.
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+We konnten Dich nicht anmelden.
+
+Multiple translations found for single string.
+	String "Highest Level of Education Completed"
+	Present in files [u'lms/templates/register-form.html', u'themes/stanford-style/lms/templates/register-form.html', u'lms/templates/register.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Höchste erreichte Bildungsstufe
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Höchste, erreichte Bildungsstufe
+
+Multiple translations found for single string.
+	String "Start Date"
+	Present in files [u'lms/templates/ccx/schedule.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Anfangsdatum:
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Anfangsdatum
+
+Multiple translations found for single string.
+	String "Course is full"
+	Present in files [u'lms/templates/courseware/course_about.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Kurs ist voll
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Kurs ist komplett belegt
+
+Multiple translations found for single string.
+	String "Problem Name"
+	Present in files [u'lms/templates/peer_grading/peer_grading.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Fragestellung Name
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Fragestellungsname
+
+Multiple translations found for single string.
+	String "Graded"
+	Present in files [u'lms/templates/peer_grading/peer_grading.html']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+benotet
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Benotet
+
+Multiple translations found for single string.
+	String "Permissions"
+	Present in files [u'wiki/forms.py']
+Translations found were:
+	#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Berechtigung
+#-#-#-#-#  release-dogwood.po (edx-platform)  #-#-#-#-#
+Berechtigungen
 

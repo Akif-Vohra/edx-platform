@@ -1,36 +1,129 @@
 Multiple translations found for single string.
+	String "None"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'cms/templates/js/timed-examination-preference-editor.underscore', u'test_root/staticfiles/cms/coffee/fixtures/timed-examination-preference-editor.cb84158754d9.underscore', u'test_root/staticfiles/cms/coffee/fixtures/timed-examination-preference-editor.underscore', u'test_root/staticfiles/cms/templates/timed-examination-preference-editor.cb84158754d9.underscore', u'test_root/staticfiles/cms/templates/timed-examination-preference-editor.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+kein
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+kein
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Kein
+
+Multiple translations found for single string.
+	String "View"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'lms/templates/bookmarks/bookmarks-list.underscore', u'lms/templates/search/course_search_item.underscore', u'lms/templates/search/dashboard_search_item.underscore', u'test_root/staticfiles/cms/templates/search/course_search_item.d26546e39910.underscore', u'test_root/staticfiles/cms/templates/search/course_search_item.underscore', u'test_root/staticfiles/cms/templates/search/dashboard_search_item.18a15104c28f.underscore', u'test_root/staticfiles/cms/templates/search/dashboard_search_item.underscore', u'test_root/staticfiles/lms/templates/search/course_search_item.d26546e39910.underscore', u'test_root/staticfiles/lms/templates/search/course_search_item.underscore', u'test_root/staticfiles/lms/templates/search/dashboard_search_item.18a15104c28f.underscore', u'test_root/staticfiles/lms/templates/search/dashboard_search_item.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Ansicht
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Ansicht
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Anzeigen
+
+Multiple translations found for single string.
 	String "Search"
-	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'common/static/common/templates/components/search-field.underscore', u'lms/djangoapps/support/static/support/templates/certificates.underscore', u'lms/djangoapps/support/static/support/templates/enrollment.underscore']
+	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'common/static/common/templates/components/search-field.underscore', u'lms/djangoapps/support/static/support/templates/certificates.underscore', u'lms/djangoapps/support/static/support/templates/enrollment.underscore', u'test_root/staticfiles/cms/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/cms/common/templates/components/search-field.underscore', u'test_root/staticfiles/cms/support/templates/certificates.023aa2024657.underscore', u'test_root/staticfiles/cms/support/templates/certificates.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/components/search-field.underscore', u'test_root/staticfiles/lms/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/lms/common/templates/components/search-field.underscore', u'test_root/staticfiles/lms/support/templates/certificates.023aa2024657.underscore', u'test_root/staticfiles/lms/support/templates/certificates.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/components/search-field.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 Suche
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 Suchen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Suchen
 
 Multiple translations found for single string.
 	String "The country that team members primarily identify with."
-	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js', u'lms/djangoapps/teams/static/teams/templates/team-profile.underscore']
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js', u'lms/djangoapps/teams/static/teams/templates/team-profile.underscore', u'test_root/staticfiles/cms/teams/templates/team-profile.6b026608e4f0.underscore', u'test_root/staticfiles/cms/teams/templates/team-profile.underscore', u'test_root/staticfiles/lms/teams/templates/team-profile.6b026608e4f0.underscore', u'test_root/staticfiles/lms/teams/templates/team-profile.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 Das Land mit dem sich die Teammitglieder primär identifizieren
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 Das Land mit dem sich die Teammitglieder primär identifizieren.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Das Land mit dem sich die Teammitglieder primär identifizieren.
 
 Multiple translations found for single string.
 	String "Username"
-	Present in files [u'lms/static/coffee/src/instructor_dashboard/membership.js', u'lms/static/js/student_account/views/account_settings_factory.js', u'lms/static/js/student_profile/views/learner_profile_factory.js', u'lms/templates/financial-assistance/financial_assessment_form.underscore']
+	Present in files [u'lms/static/coffee/src/instructor_dashboard/membership.js', u'lms/static/js/student_account/views/account_settings_factory.js', u'lms/static/js/student_profile/views/learner_profile_factory.js', u'lms/templates/financial-assistance/financial_assessment_form.underscore', u'test_root/staticfiles/cms/proctoring/templates/course_allowances.cd985d6efb88.underscore', u'test_root/staticfiles/cms/proctoring/templates/course_allowances.underscore', u'test_root/staticfiles/cms/proctoring/templates/student-proctored-exam-attempts.a419fe41737a.underscore', u'test_root/staticfiles/cms/proctoring/templates/student-proctored-exam-attempts.underscore', u'test_root/staticfiles/cms/templates/financial-assistance/financial_assessment_form.3ea5e5f1fecc.underscore', u'test_root/staticfiles/cms/templates/financial-assistance/financial_assessment_form.underscore', u'test_root/staticfiles/lms/proctoring/templates/course_allowances.cd985d6efb88.underscore', u'test_root/staticfiles/lms/proctoring/templates/course_allowances.underscore', u'test_root/staticfiles/lms/proctoring/templates/student-proctored-exam-attempts.a419fe41737a.underscore', u'test_root/staticfiles/lms/proctoring/templates/student-proctored-exam-attempts.underscore', u'test_root/staticfiles/lms/templates/financial-assistance/financial_assessment_form.3ea5e5f1fecc.underscore', u'test_root/staticfiles/lms/templates/financial-assistance/financial_assessment_form.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 Benutzername
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 Nutzername
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Nutzername
+
+Multiple translations found for single string.
+	String "Your email was successfully queued for sending."
+	Present in files [u'lms/static/coffee/src/instructor_dashboard/send_email.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Deine E-Mail wurde erfolgreich zum Senden vorbereitet.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Deine E-Mail wurde erfolgreich zum Senden eingereiht.
+
+Multiple translations found for single string.
+	String "Your email was successfully queued for sending. Please note that for large classes, it may take up to an hour (or more, if other courses are simultaneously sending email) to send all emails."
+	Present in files [u'lms/static/coffee/src/instructor_dashboard/send_email.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Deine E-Mail wurde erfolgreich in die Sendungsverarbeitung eingereiht. Bitte beachte, dass es für große Kurse mehrere Stunden (falls mehrere Kurse gleichzeitig E-Mails senden noch einmal länger) dauern kann, bis alle E-Mails versendet wurden.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Deine E-Mail wurde erfolgreich für das Senden eingereiht. Bitte beachte, dass es für große Kurse mehrere Stunden (falls mehrere Kurse gleichzeitig E-Mails senden noch einmal länger) dauern kann bis alle E-Mails versendet wurden .
 
 Multiple translations found for single string.
 	String "Staff"
-	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/post-user-display.underscore']
+	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 Lehrender
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 Mitarbeiter
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Mitarbeiter
+
+Multiple translations found for single string.
+	String "Start Date"
+	Present in files [u'lms/templates/ccx/schedule.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Anfangsdatum:
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Anfangsdatum
+
+Multiple translations found for single string.
+	String "Amount"
+	Present in files [u'lms/templates/commerce/receipt.underscore', u'lms/templates/verify_student/payment_confirmation_step.underscore', u'test_root/staticfiles/cms/templates/commerce/receipt.cf68986a796f.underscore', u'test_root/staticfiles/cms/templates/commerce/receipt.underscore', u'test_root/staticfiles/cms/templates/verify_student/payment_confirmation_step.8fc0db850d5a.underscore', u'test_root/staticfiles/cms/templates/verify_student/payment_confirmation_step.underscore', u'test_root/staticfiles/lms/templates/commerce/receipt.cf68986a796f.underscore', u'test_root/staticfiles/lms/templates/commerce/receipt.underscore', u'test_root/staticfiles/lms/templates/verify_student/payment_confirmation_step.8fc0db850d5a.underscore', u'test_root/staticfiles/lms/templates/verify_student/payment_confirmation_step.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Summe
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Menge
+
+Multiple translations found for single string.
+	String "LEARN MORE"
+	Present in files [u'lms/templates/discovery/course_card.underscore', u'test_root/staticfiles/cms/templates/discovery/course_card.f767b781d867.underscore', u'test_root/staticfiles/cms/templates/discovery/course_card.underscore', u'test_root/staticfiles/lms/templates/discovery/course_card.f767b781d867.underscore', u'test_root/staticfiles/lms/templates/discovery/course_card.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+ERFAHRE MEHR
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+MEHR ERFAHREN
+
+Multiple translations found for single string.
+	String "Ungraded"
+	Present in files [u'cms/templates/js/course-outline.underscore', u'test_root/staticfiles/cms/coffee/fixtures/course-outline.364f634e82b2.underscore', u'test_root/staticfiles/cms/coffee/fixtures/course-outline.underscore', u'test_root/staticfiles/cms/templates/course-outline.364f634e82b2.underscore', u'test_root/staticfiles/cms/templates/course-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+Unbewertet
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Unbewerted
+
+Multiple translations found for single string.
+	String "Click to add a new %(xblock_type)s"
+	Present in files [u'cms/templates/js/course-outline.underscore', u'cms/templates/js/xblock-outline.underscore', u'test_root/staticfiles/cms/coffee/fixtures/course-outline.364f634e82b2.underscore', u'test_root/staticfiles/cms/coffee/fixtures/course-outline.underscore', u'test_root/staticfiles/cms/coffee/fixtures/xblock-outline.26511430588d.underscore', u'test_root/staticfiles/cms/coffee/fixtures/xblock-outline.underscore', u'test_root/staticfiles/cms/templates/course-outline.364f634e82b2.underscore', u'test_root/staticfiles/cms/templates/course-outline.underscore', u'test_root/staticfiles/cms/templates/xblock-outline.26511430588d.underscore', u'test_root/staticfiles/cms/templates/xblock-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+Klicken Sie, um einen neuen %(xblock_type)s hinzuzufügen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Klicken Sie um einen neuen %(xblock_type)s hinzuzufügen
 
