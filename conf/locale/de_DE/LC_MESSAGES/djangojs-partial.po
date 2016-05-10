@@ -47,7 +47,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2016-05-06 14:29+0000\n"
-"PO-Revision-Date: 2016-05-06 14:30+0000\n"
+"PO-Revision-Date: 2016-05-09 17:05+0000\n"
 "Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr ""
 #: cms/static/js/views/utils/xblock_utils.js lms/static/js/ccx/schedule.js
 #: lms/static/js/views/fields.js
 msgid "Saving"
-msgstr "Speichert"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -114,7 +114,7 @@ msgstr "Löschen"
 #: cms/static/js/models/active_video_upload.js cms/static/js/views/assets.js
 #: lms/static/js/views/image_field.js
 msgid "Uploading"
-msgstr "Hochladen"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -125,7 +125,7 @@ msgstr "Name"
 
 #: cms/static/js/views/assets.js lms/static/js/Markdown.Editor.js
 msgid "Choose File"
-msgstr "Datei auswählen"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -143,7 +143,7 @@ msgstr "Unbekannt"
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Datei hochladen"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -171,7 +171,7 @@ msgstr "Schließen"
 #: lms/static/js/groups/views/cohort_discussions_inline.js
 #: lms/static/js/views/fields.js
 msgid "Your changes have been saved."
-msgstr "Ihre Änderungen wurden gespeichert."
+msgstr ""
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -182,7 +182,7 @@ msgstr "Ihre Änderungen wurden gespeichert."
 #: lms/static/js/verify_student/views/step_view.js
 #: lms/static/js/views/fields.js
 msgid "Error"
-msgstr "Fehler"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/library_content/public/js/library_content_edit.js
 #: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js
@@ -192,7 +192,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js
 msgid "Creating missing groups"
-msgstr "Erstelle fehlende Gruppen"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
@@ -239,8 +239,6 @@ msgstr[1] "(%(num_points)s Punkte möglich)"
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
-"Der Beurteilungsprozess läuft noch. Aktualisiere die Seite, um Updates zu "
-"sehen."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
@@ -1498,22 +1496,22 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "incorrect"
-msgstr "falsch"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "correct"
-msgstr "richtig"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "answer"
-msgstr "Antwort"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Short explanation"
-msgstr "kurze Erklärung"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid ""
@@ -1524,7 +1522,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Explanation"
-msgstr "Erläuterung"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
@@ -1534,7 +1532,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid "Bookmarked"
-msgstr "Lesezeichen gesetzt"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
@@ -1550,11 +1548,11 @@ msgstr "Pause"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Mute"
-msgstr "Stumm"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Unmute"
-msgstr "Stumm aus"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
@@ -1571,7 +1569,7 @@ msgstr "Vollbild im Browser"
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid "Speed"
-msgstr "Geschwindigkeit"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
@@ -1689,7 +1687,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/09_poster.js
 msgid "Play video"
-msgstr "Video abspielen"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
 msgid "Do not show again"
@@ -1819,35 +1817,27 @@ msgstr[1] ""
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "%(numVotes)s Vote"
 msgid_plural "%(numVotes)s Votes"
-msgstr[0] "%(numVotes)s Stimme"
-msgstr[1] "%(numVotes)s Stimmen"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "We had some trouble subscribing you to this thread. Please try again."
 msgstr ""
-"Wir hatten Probleme dein Abonnement dieses Diskussionsstrangs zu erstellen. "
-"Bitte versuche es noch einmal."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid ""
 "We had some trouble unsubscribing you from this thread. Please try again."
 msgstr ""
-"Wir hatten Probleme dein Abonnement dieses Diskussionsstrangs zu löschen. "
-"Bitte versuche es noch einmal."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid ""
 "We had some trouble marking this response as an answer.  Please try again."
 msgstr ""
-"Wir hatten Probleme diese Rückmeldung als eine Antwort zu registrieren. "
-"Bitte versuche es noch einmal."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid ""
 "We had some trouble removing this response as an answer.  Please try again."
 msgstr ""
-"Wir hatten Probleme diese Rückmeldung als Antwort zu entfernen. Bitte "
-"versuche es noch einmal."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "We had some trouble marking this response endorsed.  Please try again."
@@ -1908,7 +1898,7 @@ msgstr[1] "%(unread_count)s neue Kommentare"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 msgid "Current conversation"
-msgstr "Aktuelle Konversation"
+msgstr ""
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 #: lms/static/js/edxnotes/views/tabs/search_results.js
@@ -1956,8 +1946,8 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "%(numResponses)s other response"
 msgid_plural "%(numResponses)s other responses"
-msgstr[0] "%(numResponses)s weitere Antwort"
-msgstr[1] "%(numResponses)s weitere Antworten"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "%(numResponses)s response"
@@ -2017,16 +2007,15 @@ msgstr "Bist du dir sicher, dass du diese Antwort löschen möchtest?"
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
-msgstr "Erforderliches Feld."
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces in this field."
-msgstr "Bitte benutzen Sie keine Leerzeichen in diesem Eingabefeld"
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces or special characters in this field."
 msgstr ""
-"Bitte benutzen Sie keine Leer- oder Sonderzeichen in diesem Eingabefeld."
 
 #: common/static/common/js/components/views/paginated_view.js
 #: common/static/common/js/components/views/paging_footer.js
@@ -2049,7 +2038,7 @@ msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "The email address you've provided isn't formatted correctly."
-msgstr "Die eingegebene E-Mail-Adresse scheint ungültig zu sein. "
+msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s must have at least %(count)d characters."
@@ -2061,7 +2050,7 @@ msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "Please enter your %(field)s."
-msgstr "Bitte ergänzen Sie die folgenden Angaben: %(field)s"
+msgstr ""
 
 #: common/static/js/capa/drag_and_drop/base_image.js
 msgid "Drop target image"
@@ -2298,7 +2287,6 @@ msgstr[1] "Diese Anmerkung hat %(count)s Warnungen."
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
 msgstr ""
-"Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen sie es erneut."
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js
 msgid "Financial Assistance"
@@ -2322,7 +2310,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "last activity"
-msgstr "letzte Aktivität"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "open slots"
@@ -2330,7 +2318,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js
 msgid "name"
-msgstr "name"
+msgstr ""
 
 #. Translators: This refers to the number of teams (a count of how many teams
 #. there are)
@@ -2341,19 +2329,19 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Teams"
-msgstr "Teams"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Create"
-msgstr "Erstellen"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Update"
-msgstr "Update"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Name (Required) *"
-msgstr "Teamname (Erforderich)*"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "A name that identifies your team (maximum 255 characters)."
@@ -2361,7 +2349,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Description (Required) *"
-msgstr "Teambeschreibung (Erforderlich) *"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
@@ -2372,28 +2360,26 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Language"
-msgstr "Sprache"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
 "The language that team members primarily use to communicate with each other."
 msgstr ""
-"Die Sprache, die Teammitglieder primäre benutzen, um miteinander zu "
-"kommunizieren."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Country"
-msgstr "Land"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "The country that team members primarily identify with."
-msgstr "Das Land mit dem sich die Teammitglieder primär identifizieren"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/views/fields.js
 msgid "An error occurred. Please try again."
-msgstr "Ein Fehler ist aufgetreten. Bitte versuchen sie es erneut."
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Check the highlighted fields below and try again."
@@ -2448,7 +2434,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 #: lms/static/js/views/image_field.js
 msgid "Remove"
-msgstr "Entferne"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Delete this team?"
@@ -2466,13 +2452,13 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js
 msgid "You are not currently a member of any team."
-msgstr "Du bist aktuell kein Mitgied eines Teams."
+msgstr ""
 
 #. Translators: "and others" refers to fact that additional members of a team
 #. exist that are not displayed.
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "and others"
-msgstr "und anere"
+msgstr ""
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. http://momentjs.com/)
@@ -2491,7 +2477,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
-msgstr "Dieses Team verlassen ?"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid ""
@@ -2502,7 +2488,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/static/js/verify_student/views/reverify_view.js
 msgid "Confirm"
-msgstr "Bestätigen"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "You already belong to another team."
@@ -2510,7 +2496,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "This team is full."
-msgstr "Dieses Team is voll."
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid "%(memberCount)s / %(maxMemberCount)s Member"
@@ -2520,7 +2506,7 @@ msgstr[1] ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "All teams"
-msgstr "Alle Teams"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "Teams Pagination"
@@ -2538,7 +2524,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Team"
-msgstr "Mein Team"
+msgstr ""
 
 #. Translators: sr_start and sr_end surround text meant only for screen
 #. readers.
@@ -2560,27 +2546,25 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Team Search"
-msgstr "Teamsuche"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Showing results for \"%(searchString)s\""
-msgstr "Ergebnisse für \"%(searchString)s\""
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Create a New Team"
-msgstr "Ein neues Team erstellen"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "Create a new team if you can't find an existing team to join, or if you "
 "would like to learn with friends you know."
 msgstr ""
-"Erstelle ein neues Team, wenn Du keinem bestehenden Team beitreten kannst, "
-"oder wenn Du mit Freunden lernen möchtest, die Du kennst."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Edit Team"
-msgstr "Team bearbeiten"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2590,7 +2574,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Membership"
-msgstr "Mitgliedschaft"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2600,11 +2584,11 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Search teams"
-msgstr "Suche Teams"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "All Topics"
-msgstr "Alle Themen"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "The page \"%(route)s\" could not be found."
@@ -2626,7 +2610,7 @@ msgstr[1] ""
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "Topic"
-msgstr "Thema"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the %(topic_name)s Topic"
@@ -2647,14 +2631,10 @@ msgid ""
 "find a team to join, {create_span_start}create a new team in this "
 "topic{span_end}."
 msgstr ""
-"{browse_span_start}Durchsuche Teams zu anderen Themen{span_end} oder "
-"{search_span_start}suche Teams{span_end} zu diesem Thema. Wenn Du trotzdem "
-"kein Team zum Beitreten finden kannst, {create_span_start}erstelle ein neues"
-" Team für dieses Thema{span_end}."
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js
 msgid "All topics"
-msgstr "Alle Themen"
+msgstr ""
 
 #: lms/static/coffee/src/calculator.js
 msgid "Open Calculator"
@@ -2691,7 +2671,7 @@ msgstr ""
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 #: lms/static/js/bookmarks/views/bookmarks_list.js
 msgid "Loading"
-msgstr "Ladevorgang"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error getting student list."
@@ -2767,28 +2747,28 @@ msgstr "Fehler: Du kannst dich nicht selbst aus der Dozentengruppe entfernen!"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Errors"
-msgstr "Fehler"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "The following errors were generated:"
-msgstr "Folgende Fehler wurden generiert:"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Warnings"
-msgstr "Warnungen"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "The following warnings were generated:"
-msgstr "Die folgenen Warnungen wurden generiert:"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 #: lms/static/js/views/fields.js
 msgid "Success"
-msgstr "Operation Erfolgreich"
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "All accounts were created successfully."
-msgstr "Alle Konten wurden erfolgreich erstellt."
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Error adding/removing users as beta testers."
@@ -2830,7 +2810,7 @@ msgstr "Für die folgenden Merkmale konnten keine Benutzer gefunden werden:"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Reason field should not be left blank."
-msgstr "Das Ursachenfeld sollte nicht leer gelassen sein."
+msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Error enrolling/unenrolling users."
@@ -2995,9 +2975,6 @@ msgid ""
 "Error getting student progress url for '<%= student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
 msgstr ""
-"Es ist ein Fehler beim Aufrufen der Teilnehmerfortschritts-URL für '<%= "
-"student_id %>' aufgetreten. Vergewissere dich, ob der Teilnehmercode richtig"
-" geschrieben wurde."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
@@ -3119,8 +3096,6 @@ msgid ""
 "An error occurred. Make sure that the student's username or email address is"
 " correct and try again."
 msgstr ""
-"Ein Fehler ist aufgetreten. Versichern sie sich ,dass der Benutzername und "
-"die email Adresse des Studenten richtig sind und versuchen sie erneut."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid "Entrance exam state is being deleted for student '{student_id}'."
@@ -3376,7 +3351,7 @@ msgstr "Markdown Bearbeitungshilfen"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Please provide a valid URL."
@@ -3477,7 +3452,7 @@ msgstr ""
 #: lms/static/js/bookmarks/views/bookmarks_list.js
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "An error has occurred. Please try again."
-msgstr "Datei beschädigt. Bitte versuchen sie es erneut"
+msgstr ""
 
 #: lms/static/js/bookmarks/views/bookmark_button.js
 msgid "Click to add"
@@ -3485,7 +3460,7 @@ msgstr ""
 
 #: lms/static/js/bookmarks/views/bookmark_button.js
 msgid "Click to remove"
-msgstr "Klicke zum Entfernen"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "All subsections"
@@ -3497,15 +3472,15 @@ msgstr ""
 
 #: lms/static/js/ccx/schedule.js lms/static/js/ccx/schedule.js.c
 msgid "Click to change"
-msgstr "Klicke zum Ändern"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Select a chapter"
-msgstr "Wähle ein Kapitel."
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js lms/static/js/ccx/schedule.js.c
 msgid "Save changes"
-msgstr "Änderungen speichern"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Please enter valid start date and time."
@@ -3526,7 +3501,7 @@ msgstr ""
 #: lms/static/js/certificates/models/certificate_exception.js
 #: lms/static/js/certificates/models/certificate_invalidation.js
 msgid "Student username/email field is required and can not be empty. "
-msgstr "Das Benutzername/E-Mail Feld wird benötigt und darf nicht leer sein."
+msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid "Uploaded file issues. Click on \"+\" to view."
@@ -3627,32 +3602,31 @@ msgstr ""
 
 #: lms/static/js/courseware/credit_progress.js
 msgid "Less"
-msgstr "Weniger"
+msgstr ""
 
 #: lms/static/js/dashboard/donation.js
 msgid "Please enter a valid donation amount."
-msgstr "Bitte geben Sie einen gültigen Spendenbetrag ein."
+msgstr ""
 
 #: lms/static/js/dashboard/donation.js
 msgid "Your donation could not be submitted."
-msgstr "Ihre Spende konnte nicht übermittelt werden."
+msgstr ""
 
 #: lms/static/js/dashboard/legacy.js
 msgid "An error occurred. Please try again later."
 msgstr ""
-"Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal."
 
 #: lms/static/js/discovery/views/search_form.js
 #, c-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "%s Kurs"
-msgstr[1] "%s Kurse"
+msgstr[0] ""
+msgstr[1] ""
 
 #: lms/static/js/discovery/views/search_form.js
 #, c-format
 msgid "We couldn't find any results for \"%s\"."
-msgstr "Wir konnten leider keine Suchergebnisse für \"%s\" finden. "
+msgstr ""
 
 #: lms/static/js/discovery/views/search_form.js
 msgid "There was an error, try searching again."
@@ -3671,7 +3645,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Hide notes"
-msgstr "Notiz verstecken"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Notes visible"
@@ -3679,7 +3653,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Show notes"
-msgstr "Zeige Notizen"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Notes hidden"
@@ -3692,7 +3666,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/tab_item.js
 msgid "Current tab"
-msgstr "Aktuelle Registerkarte"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/tabs/course_structure.js
 msgid "Location in Course"
@@ -3700,13 +3674,11 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js
 msgid "Recent Activity"
-msgstr "Aktuelle Aktivität"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 msgid "No results found for \"%(query_string)s\". Please try searching again."
 msgstr ""
-"Es konnten keine Ergebnisse für \"%(query_string)s\" gefunden werden. Bitte "
-"versuchen Sie es erneut. "
 
 #. Translators: this is a title shown before all Notes that have no associated
 #. tags. It is put within
@@ -3735,7 +3707,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Selected tab"
-msgstr "Ausgewähltes Tab"
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Saved cohort"
@@ -3747,7 +3719,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Enter a username or email."
-msgstr "Benutzernamen oder E-Mail-Adresse eingeben"
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numUsersAdded} student has been added to this cohort"
@@ -3769,7 +3741,7 @@ msgstr[1] ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Unknown user: {user}"
-msgstr "Unbekannter Benutzer: {user}"
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "There was an error when trying to add students:"
@@ -3779,7 +3751,7 @@ msgstr[1] ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "View all errors"
-msgstr "Alle Fehler ansehen"
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "You must specify a name for the cohort"
@@ -3787,7 +3759,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "You did not select a content group"
-msgstr "Sie haben noch keine Inhaltsgruppen definiert."
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "The selected content group does not exist"
@@ -3807,7 +3779,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Add Cohort"
-msgstr "Kohorte hinzufügen"
+msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
 msgid ""
@@ -3821,7 +3793,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Choose a .csv file"
-msgstr "Wählen Sie eine .csv-Datei aus"
+msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Only properly formatted .csv files will be accepted."
@@ -3898,7 +3870,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Enter the enrollment code."
-msgstr "Trage den Einschreibungscode ein."
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Cancel enrollment code"
@@ -3906,11 +3878,11 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Restore enrollment code"
-msgstr "Stelle den Einschreibungscode wieder her"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Mark enrollment code as unused"
-msgstr "Markiere Einschreibungscode als unbenutzt"
+msgstr ""
 
 #: lms/static/js/search/base/views/search_results_view.js
 #, c-format
@@ -3949,23 +3921,21 @@ msgstr "Neubewertung der Fragestellung nicht erfolgreich."
 
 #: lms/static/js/student_account/account.js
 msgid "The data could not be saved."
-msgstr "Die Daten konnten nicht gespeichert werden."
+msgstr ""
 
 #: lms/static/js/student_account/account.js
 msgid "Please enter a valid email address"
-msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+msgstr ""
 
 #: lms/static/js/student_account/account.js
 msgid "Please enter a valid password"
-msgstr "Bitte geben Sie ein gültiges Passwort ein"
+msgstr ""
 
 #: lms/static/js/student_account/account.js
 msgid ""
 "Password reset email sent. Follow the link in the email to change your "
 "password."
 msgstr ""
-"Eine Email zum Zurücksetzen des Passwortes wurde versandt. Benutzen Sie den "
-"Link in der E-Mail, um das Passwort zu ändern."
 
 #: lms/static/js/student_account/account.js
 msgid "We weren't able to send you a password reset email."
@@ -3989,7 +3959,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Loading your courses"
-msgstr "Lade ihren Kurs"
+msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -3999,19 +3969,17 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Basic Account Information (required)"
-msgstr "Allgemeine Konto-Informationen (benötigt)"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The name that identifies you throughout {platform_name}. You cannot change "
 "your username."
 msgstr ""
-"Ihr Benutzername, der Sie auf {platform_name} identifiziert. Sie können "
-"Ihren Benutzernamen nicht ändern. "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Full Name"
-msgstr "Vollständiger Name"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4020,79 +3988,69 @@ msgid ""
 "exactly as it appears on your government-issued photo ID, including any non-"
 "Roman characters."
 msgstr ""
-"Der Name der auf Ihren Zertifikaten erscheinen soll. Andere Lernende sehen "
-"niemals Ihren vollständigen Namen. Für verifizierte Zertifikate tragen Sie "
-"Ihren Namen so wie auf Ihrem Ausweis oder Reisepass ein."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Email Address"
-msgstr "E-Mail-Adresse"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address."
 msgstr ""
-"Die E-Mail-Adresse, die Sie zum Einloggen benutzen. Nachrichten von "
-"{platform_name} und Ihren Kursen werden an diese Adresse gesendet."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Password"
-msgstr "Passwort"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Reset your Password"
-msgstr "Passwort zurücksetzen"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Reset Password"
-msgstr "Passwort zurücksetzen"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "When you click \"Reset Password\", a message will be sent to your email "
 "address. Click the link in the message to reset your password."
 msgstr ""
-"Wenn Sie auf \"Passwort zurücksetzen\" klicken, wird eine Nachricht an Ihre "
-"E-Mail Adresse geschickt. Klicken Sie auf den Link in der Nachricht, um Ihr "
-"Passwort zurückzusetzen."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The language used throughout this site. This site is currently available in "
 "a limited number of languages."
 msgstr ""
-"Diese Seite erscheint in der ausgewählten Sprache. Aktuell ist nur eine "
-"begrenzte Anzahl an Sprachen verfügbar."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region"
-msgstr "Land oder Region"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Additional Information (optional)"
-msgstr "Zusätzliche Informationen (optional)"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Education Completed"
-msgstr "Höchster Bildungsabschluss"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Gender"
-msgstr "Geschlecht"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Year of Birth"
-msgstr "Geburtsjahr"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Preferred Language"
-msgstr "Bevorzugte Sprache"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Connected Accounts"
-msgstr "Verbundene Konten"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Connect your {accountName} account"
@@ -4114,24 +4072,22 @@ msgid ""
 "We've sent a message to {email_address}. Click the link in the message to "
 "reset your password."
 msgstr ""
-"Eine Email wurde versendet an {email}. Benutzen sie den Link in der E-mail "
-"um das Passwort zu ändern."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Unlink"
-msgstr "Trennen"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Link"
-msgstr "Verbinde"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Unlinking"
-msgstr "Trennen"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Linking"
-msgstr "Verbinden"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Successfully unlinked."
@@ -4143,66 +4099,57 @@ msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "{platform_name} learners can see my:"
-msgstr "{platform_name} Lernende sehen mein:"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Limited Profile"
-msgstr "Limitiertes Profil"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Full Profile"
-msgstr "Volles Profil"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Add Country"
-msgstr "Land hinzufügen"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Add language"
-msgstr "Sprache hinzufügen"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "About me"
-msgstr "Über mich"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
-"Erzählen Sie anderen Lernenden ein bißchen über sich selbst: was "
-"interessiert Sie, warum nehmen Sie an den Kursen teil und was möchten Sie "
-"gern lernen. "
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid "Account Settings page."
-msgstr "Kontoeinstellungsseite"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid ""
 "You must specify your birth year before you can share your full profile. To "
 "specify your birth year, go to the {account_settings_page_link}"
 msgstr ""
-"Du must dein Geburtsjahr eintragen, bevor du dein volles Profil teilen "
-"kannst. Gehe zur {account_settings_page_link}, um Dein Geburtsjahr "
-"einzutragen."
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
 msgstr ""
-"Du must über 13 sein, um dein volles Profil zu teilen. Stelle sicher, dass "
-"du ein Geburtsjahr auf der {account_settings_page_link} eingetragen hast, "
-"wenn du über 13 bist."
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid "Profile Image"
-msgstr "Profilbild"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
 msgid "Profile image for {username}"
-msgstr "Profilbild für {username}"
+msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_view.js
 msgid "About Me"
@@ -4214,7 +4161,7 @@ msgstr ""
 
 #: lms/static/js/student_profile/views/learner_profile_view.js
 msgid "Profile"
-msgstr "Profil"
+msgstr ""
 
 #: lms/static/js/verify_student/views/image_input_view.js
 msgid "Image Upload Error"
@@ -4240,7 +4187,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Professional Education"
-msgstr "Berufsbildung"
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate upgrade"
@@ -4248,7 +4195,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate"
-msgstr "Verifiziertes Zertifikat"
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Checkout"
@@ -4304,7 +4251,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Webcam Detected"
-msgstr "Keine Webcam gefunden"
+msgstr ""
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "You don't seem to have a webcam connected."
@@ -4320,7 +4267,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Flash Detected"
-msgstr "Kein Flash gefunden"
+msgstr ""
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid ""
@@ -4338,7 +4285,7 @@ msgstr ""
 
 #: lms/static/js/views/fields.js
 msgid "In Progress"
-msgstr "In Bearbeitung"
+msgstr ""
 
 #: lms/static/js/views/fields.js
 msgid "Placeholder"
@@ -4354,15 +4301,15 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "Upload an image"
-msgstr "Ein Bild hochladen"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "Change image"
-msgstr "Bild ändern"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "Removing"
-msgstr "Entfernen"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "An error has occurred. Refresh the page, and then try again."
@@ -4390,15 +4337,15 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "KB"
-msgstr "KB"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: lms/templates/class_dashboard/all_section_metrics.js
 #: lms/templates/class_dashboard/all_section_metrics.js

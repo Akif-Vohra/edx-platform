@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2016-05-06 14:29+0000\n"
-"PO-Revision-Date: 2016-04-21 11:11+0000\n"
+"PO-Revision-Date: 2016-05-09 11:26+0000\n"
 "Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -35,113 +35,100 @@ msgstr ""
 #: cms/djangoapps/contentstore/course_group_config.py
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "invalid JSON"
-msgstr "ungültiges JSON"
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_group_config.py
 msgid "must have name of the configuration"
-msgstr "Sie benötigen den Namen der Konfiguration"
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_group_config.py
 msgid "must have at least one group"
-msgstr "du brauchst wenigstens eine Gruppe"
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_info_model.py
 #: cms/djangoapps/contentstore/course_info_model.py
 msgid "Invalid course update id."
-msgstr "Ungültige Kursaktualisierungskennung."
+msgstr ""
 
 #: cms/djangoapps/contentstore/course_info_model.py
 msgid "Course update not found."
-msgstr "Kursneuerungen nicht gefunden."
+msgstr ""
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "Could not index item: {}"
-msgstr "Konnte folgendes Objekt nicht indizieren: {}"
+msgstr ""
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "General indexing error occurred"
-msgstr "Genereller Indizierungsfehler"
+msgstr ""
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "(Unnamed)"
-msgstr "(Unbenannt)"
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
 msgstr ""
-"GIT_REPO_EXPORT_DIR nicht gesetzt oder Pfad {0} existiert nicht, bitte "
-"erstellen Sie den Pfad oder wählen einen anderen mit GIT_REPO_EXPORT_DIR"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Non writable git url provided. Expecting something like: "
 "git@github.com:mitocw/edx4edx_lite.git"
 msgstr ""
-"Keine git-URL mit schreibzugriff angegeben. Erwarte etwas wie: "
-"git@github.com:mitocw/edx4edx_lite.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "If using http urls, you must provide the username and password in the url. "
 "Similar to https://user:pass@github.com/user/course."
 msgstr ""
-"Wenn http URLs verwendet werden, müssen Username und Passwort in der URL "
-"angegeben werden. Wie beispielsweise "
-"https://user:pass@github.com/user/course."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to determine branch, repo in detached HEAD mode"
-msgstr "Kann Branch nicht ermitteln, repo ist im detached HEAD-Modus"
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to update or clone git repository."
-msgstr "Kann git-Repository nicht aktualisieren oder klonen."
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to export course to xml."
-msgstr "Kurs xml export nicht möglich."
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to configure git username and password"
-msgstr "Kann git-Benutzernamen und Passwort nicht einstellen"
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Unable to commit changes. This is usually because there are no changes to be"
 " committed"
 msgstr ""
-"Die Änderungen konnten nicht übergeben werden. Dies geschieht üblicherweise "
-"dann, wenn keine Änderungen zu übertragen sind."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Unable to push changes.  This is usually because the remote repository "
 "cannot be contacted"
 msgstr ""
-"Kann Änderungen nicht pushen. Der übliche Grund hierfür ist, dass das "
-"entfernt liegende Repository nicht erreicht werden kann."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Bad course location provided"
-msgstr "Mangelhafter Kursort angegeben"
+msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Missing branch on fresh clone"
-msgstr "Fehlender Zweig bei neuem Klon"
+msgstr ""
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py
 msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr ""
-"Nehmen Sie den ausgewählten Kurs und versuchen Sie ihn in ein git-Repository zu exportieren.\n"
-"Das Kursverzeichnis muss hierfür bereits ein git-Repository sein. Verwendung:  git_export <course_loc> <git_url>"
 
 #: cms/djangoapps/contentstore/utils.py
 msgid "Deleted group"
-msgstr "Gelöschte Gruppe"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid ""
@@ -149,17 +136,14 @@ msgid ""
 "instructions here to upload a file elsewhere and link to it instead: "
 "{faq_url}"
 msgstr ""
-"Datei {filename} überschreitet die maximal erlaubte Grösse von  {size_mb} "
-"MB. Bitte folgen Sie den Instruktionen um Ihre Datei an anderer Stelle "
-"hochzuladen und sie stattdessen zu verlinken: {faq_url}"
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
-msgstr "Hochladen fertiggestellt"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
-msgstr "muss den Namen des Zertifikats haben"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
@@ -172,15 +156,15 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Video"
-msgstr "Video"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
-msgstr "Leer"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
@@ -188,32 +172,25 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Unscheduled"
-msgstr "Nicht terminiert"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
 msgstr ""
-"Sonderzeichen sind für Organisation, Kursnummer und Kursablauf nicht "
-"erlaubt."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
 msgstr ""
-"Es gibt bereits einen Kurs, der die gleiche Organisation und Kursnummer hat."
-" Bitte ändern Sie entweder die Organisation oder die Kursnummer, so dass "
-"diese eindeutig sind."
 
 #: cms/djangoapps/contentstore/views/course.py
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "Please change either the organization or course number so that it is unique."
 msgstr ""
-"Bitte ändern Sie entweder die Organisation oder die Kursnummer, so dass "
-"Eindeutigkeit herrscht."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
@@ -221,9 +198,6 @@ msgid ""
 "\n"
 "{err}"
 msgstr ""
-"Erstellung des Kurses '{name}' nicht möglich.⏎\n"
-"⏎\n"
-"{err}"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
@@ -262,15 +236,15 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/export_git.py
 msgid "Course successfully exported to git repository"
-msgstr "Kurs erfolgreich in ein Gitrepository exportiert"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/helpers.py
 msgid "Vertical"
-msgstr "Senkrecht"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/helpers.py
 msgid "Empty"
-msgstr "Leer"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
@@ -294,11 +268,11 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Duplicate of {0}"
-msgstr "Kopie von '{0}'"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Duplicate of '{0}'"
-msgstr "Duplikat von '{0}'"
+msgstr ""
 
 #. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
 #. in many languages. This is used to avoid Transifex's misinterpreting of
@@ -312,11 +286,11 @@ msgstr ""
 #. a percent value out of 100, e.g. "58%" means "58/100".
 #: cms/djangoapps/contentstore/views/item.py
 msgid "%"
-msgstr "%"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "{section_or_subsection} \"{display_name}\""
-msgstr "{section_or_subsection} \"{display_name}\""
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid "Unable to create library - missing required field '{field}'"
@@ -338,30 +312,27 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Incoming video data is empty."
-msgstr "Die eingehenden Videodaten sind leer."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Can't find item by locator."
-msgstr "Kann kein Item mit diesem Locator finden."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Transcripts are supported only for \"video\" modules."
-msgstr "Transskripte sind nur für \"Video\" Module verfügbar."
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Insufficient permissions"
-msgstr "Unzureichende Rechte"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Could not find user by email address '{email}'."
 msgstr ""
-"Es konnte kein Benutzer mit dieser E-Mail-Adresse gefunden werden: '{email}‘"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "User {email} has registered but has not yet activated his/her account."
 msgstr ""
-"Der Benutzer {email} ist registriert aber hat sein/ihr Konto noch nicht "
-"aktiviert."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "No `role` specified."
@@ -378,25 +349,25 @@ msgstr ""
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Uploading"
-msgstr "Hochladen"
+msgstr ""
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "In Progress"
-msgstr "In Bearbeitung"
+msgstr ""
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Ready"
-msgstr "Bereit"
+msgstr ""
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Failed"
-msgstr "Fehlgeschlagen"
+msgstr ""
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
@@ -413,7 +384,7 @@ msgstr ""
 #. Translators: This is the status for a video that is in an unknown state
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Unknown"
-msgstr "Unbekannt"
+msgstr ""
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
@@ -424,11 +395,11 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Duration"
-msgstr "Dauer"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
-msgstr "Datum hinzugefügt"
+msgstr ""
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
@@ -438,43 +409,41 @@ msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "unrequested"
-msgstr "nicht angefragt"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "pending"
-msgstr "ausstehend"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "granted"
-msgstr "erlaubt"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "denied"
-msgstr "abgelehnt"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Studio user"
-msgstr "Studio Benutzer"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "The date when state was last updated"
-msgstr "Zuletzt geändertes Datum"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
-msgstr "Aktueller Kurserstellungsstand"
+msgstr ""
 
 #: cms/djangoapps/course_creators/models.py
 msgid ""
 "Optional notes about this user (for example, why course creation access was "
 "denied)"
 msgstr ""
-"Optionale Notizen über den Benutzer (z.B. Warum der Kurserstellungs-Zugang "
-"abgelehnt wurde)"
 
 #: cms/djangoapps/models/settings/course_metadata.py
 msgid "Incorrect format for field '{name}'. {detailed_message}"
-msgstr "Falsches Format für das Feld '{name}'. {detailed_message}"
+msgstr ""
 
 #: cms/lib/xblock/tagging/tagging.py
 msgid "Dictionary with the available tags"
