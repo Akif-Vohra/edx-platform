@@ -105,7 +105,7 @@ git+https://github.com/edx-solutions/xblock-drag-and-drop-v2@v2.0.1#egg=xblock-d
 -e git+https://github.com/mjrulesamrat/ComplexHTML-XBlock#egg=complex-html-block
 -e git+https://github.com/mjrulesamrat/lynxcheckpoint#egg=lynxcheckpoint
 -e git+https://github.com/mjrulesamrat/lynxtable#egg=lynxtable
--e git+https://github.com/mjrulesamrat/xblock-carousel#egg=xblock-carousel
+git+https://github.com/mjrulesamrat/xblock-carousel#egg=xblock-carousel
 
 #Lynx specific custom apps
 -e git+https://github.com/mjrulesamrat/lynxceb#egg=lynxceb
