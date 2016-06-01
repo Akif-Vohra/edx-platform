@@ -1,31 +1,5 @@
-# #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
 # Copyright (C) 2016 EdX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
-# #-#-#-#-#  django-studio.po (0.1a)  #-#-#-#-#
-# edX translation file.
-# Copyright (C) 2016 EdX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
-# #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2016 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
-# #-#-#-#-#  mako-studio.po (0.1a)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2016 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
-# #-#-#-#-#  messages.po (EdX Studio)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2013 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
-# #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2016 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -35,7 +9,7 @@
 # andreas.frey <andreas.frey@liip.ch>, 2014
 # Arno <transifex@senlogik.de>, 2013
 # Arno <transifex@senlogik.de>, 2013
-# Ettore Atalan <atalanttore@googlemail.com>, 2014
+# Ettore Atalan <atalanttore@googlemail.com>, 2014,2016
 # trajan, 2014
 # kalei, 2014
 # s6lidaem <linda.daemmer@web.de>, 2014
@@ -55,14 +29,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-05-19 17:09+0000\n"
-"PO-Revision-Date: 2016-05-19 15:06+0000\n"
-"Last-Translator: Ned Batchelder <ned@edx.org>\n"
+"POT-Creation-Date: 2016-05-26 16:38+0000\n"
+"PO-Revision-Date: 2016-05-31 11:13+0000\n"
+"Last-Translator: Akif Vohra <akifvohra@gmail.com>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -151,7 +124,7 @@ msgstr "Aktuelle Konfiguration"
 
 #: common/djangoapps/config_models/admin.py
 msgid "All (Show History)"
-msgstr ""
+msgstr "Alle (Chronik anzeigen)"
 
 #: common/djangoapps/config_models/admin.py
 #: common/djangoapps/config_models/admin.py
@@ -170,7 +143,7 @@ msgstr "Geändert durch"
 
 #: common/djangoapps/config_models/models.py
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiviert"
 
 #: common/djangoapps/cors_csrf/models.py
 msgid ""
@@ -406,7 +379,7 @@ msgstr ""
 
 #: common/djangoapps/student/admin.py
 msgid "User profile"
-msgstr ""
+msgstr "Benutzerprofil"
 
 #: common/djangoapps/student/forms.py
 msgid ""
@@ -573,7 +546,7 @@ msgstr ""
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Created new user: \"{}\""
-msgstr ""
+msgstr "Neuer Benutzer erstellt: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Found existing user: \"{}\""
@@ -6295,11 +6268,17 @@ msgstr ""
 msgid "cohorted"
 msgstr ""
 
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the First Name
 #: lms/djangoapps/instructor_task/tasks_helper.py
+#: openedx/core/djangoapps/user_api/views.py
 msgid "First Name"
 msgstr "Vorname"
 
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the First Name
 #: lms/djangoapps/instructor_task/tasks_helper.py
+#: openedx/core/djangoapps/user_api/views.py
 msgid "Last Name"
 msgstr "Nachname"
 
@@ -6308,7 +6287,10 @@ msgstr "Nachname"
 msgid "Company Name"
 msgstr "Firmenname"
 
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the Title
 #: lms/djangoapps/instructor_task/tasks_helper.py
+#: openedx/core/djangoapps/user_api/views.py
 msgid "Title"
 msgstr "Titel"
 
@@ -7584,7 +7566,7 @@ msgstr "Sie haben nicht die Erlaubnis, diese Seite anzusehen."
 
 #: lms/djangoapps/student_account/views.py
 msgid "No user with the provided email address exists."
-msgstr ""
+msgstr "Es existiert kein Benutzer mit der angegebenen E-Mail-Adresse.  "
 
 #: lms/djangoapps/student_account/views.py
 msgid "No email address provided."
@@ -8890,6 +8872,12 @@ msgstr "Teilen Sie uns mit, warum Sie Interesse an {platform_name} haben"
 #: openedx/core/djangoapps/user_api/views.py
 msgid "State/Province/Region"
 msgstr ""
+
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the Company
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Company"
+msgstr "Firma"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Please select your Country."
