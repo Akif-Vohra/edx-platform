@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2016-05-26 16:38+0000\n"
-"PO-Revision-Date: 2016-05-31 11:13+0000\n"
+"PO-Revision-Date: 2016-06-14 13:58+0000\n"
 "Last-Translator: Akif Vohra <akifvohra@gmail.com>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -5511,7 +5511,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Could not find problem with this location."
-msgstr ""
+msgstr "Konte keine Fragestellung mit diesem Pfad finden.  "
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6046,6 +6046,9 @@ msgid ""
 "To gain insights into student enrollment and participation {link_start}visit"
 " {analytics_dashboard_name}, our new course analytics product{link_end}."
 msgstr ""
+"Um eine Übersicht über alle eingeschriebenen Teilnehmer und deren "
+"Nutzungsverhalten zu bekommen, besuchen Sie {analytics_dashboard_name}, "
+"{link_start}unser neues Analytics-Angebot{link_end}.  "
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "E-Commerce"
@@ -6074,7 +6077,7 @@ msgstr "CourseMode Gebühren erfolgreich aktualisiert"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Course Info"
-msgstr "Aktuelles"
+msgstr "Kurs-Info"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "No end date set"
@@ -6094,7 +6097,7 @@ msgstr "Großgruppen"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Student Admin"
-msgstr "Administrator der Kursteilnehmer"
+msgstr "Teilnehmer-Administration"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Extensions"
@@ -6106,7 +6109,7 @@ msgstr "Daten-Download"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Analytics"
-msgstr "Analytik"
+msgstr "Analytics"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Metrics"
@@ -7574,7 +7577,7 @@ msgstr ""
 
 #: lms/djangoapps/support/views/index.py
 msgid "View and regenerate certificates."
-msgstr ""
+msgstr "Zertifikate anzeigen und neu erstellen "
 
 #: lms/djangoapps/support/views/index.py
 msgid "Manual Refund"

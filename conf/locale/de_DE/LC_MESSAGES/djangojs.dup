@@ -72,6 +72,26 @@ Deine E-Mail wurde erfolgreich in die Sendungsverarbeitung eingereiht. Bitte bea
 Deine E-Mail wurde erfolgreich für das Senden eingereiht. Bitte beachte, dass es für große Kurse mehrere Stunden (falls mehrere Kurse gleichzeitig E-Mails senden noch einmal länger) dauern kann bis alle E-Mails versendet wurden .
 
 Multiple translations found for single string.
+	String "Add Cohort"
+	Present in files [u'lms/static/js/groups/views/cohorts.js', u'lms/templates/instructor/instructor_dashboard_2/cohorts.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Kohorte hinzufügen
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Grossgruppe hinzufügen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Kohorte hinzufügen
+
+Multiple translations found for single string.
+	String "Allow students to generate certificates for this course?"
+	Present in files [u'lms/static/js/instructor_dashboard/certificates.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen? 
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen?
+
+Multiple translations found for single string.
 	String "Staff"
 	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore']
 Translations found were:
@@ -108,6 +128,42 @@ Translations found were:
 ERFAHRE MEHR
 #-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
 MEHR ERFAHREN
+
+Multiple translations found for single string.
+	String "Cohort Name"
+	Present in files [u'lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-form.8d36217b9617.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-form.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-form.8d36217b9617.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Name der Grossgruppe
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Name der Kohorte
+
+Multiple translations found for single string.
+	String "Select a cohort"
+	Present in files [u'lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-selector.461c4e5d1555.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-selector.461c4e5d1555.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Wählen Sie eine Grossgruppe
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Wähle eine Kohorte
+
+Multiple translations found for single string.
+	String "View Cohort"
+	Present in files [u'lms/templates/instructor/instructor_dashboard_2/cohorts.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Grossgruppe ansehen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Kohorte ansehen
+
+Multiple translations found for single string.
+	String "Thank you for submitting your photos. We will review them shortly. You can now sign up for any %(platformName)s course that offers verified certificates. Verification is good for one year. After one year, you must submit photos for verification again."
+	Present in files [u'lms/templates/verify_student/enrollment_confirmation_step.underscore', u'test_root/staticfiles/cms/templates/verify_student/enrollment_confirmation_step.dd84c543ca43.underscore', u'test_root/staticfiles/cms/templates/verify_student/enrollment_confirmation_step.underscore', u'test_root/staticfiles/lms/templates/verify_student/enrollment_confirmation_step.dd84c543ca43.underscore', u'test_root/staticfiles/lms/templates/verify_student/enrollment_confirmation_step.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Danke für das Einsenden ihre Fotos. Wir werden sie bald überprüfen. Sie können sich jetzt beliebig für %(platformName)s Kurse mit überprüfte Zertifikate anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach ein Jahr müssen Sie ihre Fotos für Überprüfung wieder einsenden. 
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Vielen Dank für das Einsenden Ihrer Fotos. Wir werden sie bald überprüfen. Sie können sich jetzt beliebig für %(platformName)s Kurse mit geprüften Zertifikaten anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach ein Jahr müssen Sie Ihre Fotos für die Überprüfung erneut einsenden. 
 
 Multiple translations found for single string.
 	String "Ungraded"

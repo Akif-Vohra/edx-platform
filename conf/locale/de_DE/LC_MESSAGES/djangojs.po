@@ -143,7 +143,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2016-04-11 19:37+0000\n"
-"PO-Revision-Date: 2016-05-30 15:43+0000\n"
+"PO-Revision-Date: 2016-06-14 14:04+0000\n"
 "Last-Translator: Akif Vohra <akifvohra@gmail.com>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -4663,7 +4663,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Allow students to generate certificates for this course?"
-msgstr ""
+msgstr "Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen?"
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Prevent students from generating certificates in this course?"
@@ -7769,11 +7769,11 @@ msgstr "Zertifikat für den Nutzer erneut generieren"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate"
-msgstr "Generiere"
+msgstr "Erstellen"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate the user's certificate"
-msgstr "Zertifikat für den Nutzer generieren"
+msgstr "Zertifikat für den Nutzer erstellen"
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Current enrollment mode:"
@@ -8738,13 +8738,15 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate Exception Certificates"
-msgstr ""
+msgstr "Ausnahmezertifikate erstellen"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid ""
 "Generate certificates for all users on the Exception list who do not yet "
 "have a certificate"
 msgstr ""
+"Erstelle ein Zertifikat für alle Teilnehmer auf der Ausnahmeliste, die noch "
+"kein Zertifikat haben. "
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
@@ -8752,7 +8754,7 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate a Certificate for all users on the Exception list"
-msgstr ""
+msgstr "Erstelle ein Zertifikat für alle Teilnehmer auf der Ausnahmeliste"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
@@ -8776,7 +8778,7 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Certificate Generated"
-msgstr ""
+msgstr "Zertifikat erstellt"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/certificate-white-list.d79a92475d37.underscore
@@ -8968,7 +8970,7 @@ msgstr "Gebe ein das gewünschte Namen von der Kohorte"
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-form.8d36217b9617.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Name"
-msgstr "Name der Kohorte"
+msgstr "Name der Grossgruppe"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-form.8d36217b9617.underscore
@@ -9101,7 +9103,7 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-selector.461c4e5d1555.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 msgid "Select a cohort"
-msgstr "Wähle eine Kohorte"
+msgstr "Wählen Sie eine Grossgruppe"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-selector.461c4e5d1555.underscore
@@ -9118,7 +9120,7 @@ msgstr "%(cohort_name)s (%(user_count)s)"
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Enable Cohorts"
-msgstr ""
+msgstr "Grossgruppen aktivieren"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
@@ -9126,7 +9128,7 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Select a cohort to manage"
-msgstr ""
+msgstr "Zu verwaltende Grossgruppe wählen"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
@@ -9134,7 +9136,7 @@ msgstr ""
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
 #: test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "View Cohort"
-msgstr "Kohorte ansehen"
+msgstr "Grossgruppe ansehen"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 #: test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohorts.2496d0e899bc.underscore
@@ -9818,7 +9820,7 @@ msgstr ""
 "Danke für das Einsenden ihre Fotos. Wir werden sie bald überprüfen. Sie "
 "können sich jetzt beliebig für %(platformName)s Kurse mit überprüfte "
 "Zertifikate anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach ein "
-"Jahr müssen Sie ihre Fotos für Überprüfung wieder einsenden. "
+"Jahr müssen Sie ihre Fotos für Überprüfung wieder einsenden."
 
 #: lms/templates/verify_student/error.underscore
 #: test_root/staticfiles/cms/templates/verify_student/error.10f82e0d47b4.underscore
