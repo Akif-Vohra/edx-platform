@@ -56,7 +56,7 @@ from openedx.core.djangoapps.credit.api import (
 )
 from courseware.models import StudentModuleHistory
 from courseware.model_data import FieldDataCache, ScoresClient
-from .module_render import toc_for_course, get_module_for_descriptor, get_module, get_module_by_usage_id
+from .module_render import get_module_for_descriptor, get_module, get_module_by_usage_id
 from .entrance_exams import (
     course_has_entrance_exam,
     get_entrance_exam_content,
@@ -83,6 +83,8 @@ from shoppingcart.utils import is_shopping_cart_enabled
 from opaque_keys import InvalidKeyError
 from util.milestones_helpers import get_prerequisite_courses_display
 from util.views import _record_feedback_in_zendesk
+from util import milestones_helpers
+from util.model_utils import slugify
 
 from microsite_configuration import microsite
 from opaque_keys.edx.locations import SlashSeparatedCourseKey
@@ -150,6 +152,184 @@ def courses(request):
     )
 
 
+def toc_for_course(user, request, course, active_chapter, active_section, field_data_cache):
+    '''
+    Create a table of contents from the module store
+
+    Return format:
+    [ {'display_name': name, 'url_name': url_name,
+       'sections': SECTIONS, 'active': bool}, ... ]
+
+    where SECTIONS is a list
+    [ {'display_name': name, 'url_name': url_name,
+       'format': format, 'due': due, 'active' : bool, 'graded': bool}, ...]
+
+    active is set for the section and chapter corresponding to the passed
+    parameters, which are expected to be url_names of the chapter+section.
+    Everything else comes from the xml, or defaults to "".
+
+    chapters with name 'hidden' are skipped.
+
+    NOTE: assumes that if we got this far, user has access to course.  Returns
+    None if this is not the case.
+
+    field_data_cache must include data from the course module and 2 levels of its descendents
+    '''
+
+    with modulestore().bulk_operations(course.id):
+        course_module = get_module_for_descriptor(
+            user, request, course, field_data_cache, course.id, course=course
+        )
+        if course_module is None:
+            return None
+
+        toc_chapters = list()
+        chapters = course_module.get_display_items()
+
+        # courseware_summary calculation
+
+        scores_client = ScoresClient.from_field_data_cache(field_data_cache)
+
+        courseware_summary = grades.progress_summary(
+            user, request, course, field_data_cache=field_data_cache, scores_client=scores_client
+        )
+
+        # Two Seperate Dictionaries which contains completion status of Chapter and Sections
+        # Ungraded Sections are ignored
+
+        chapter_dict = {}
+
+        for chapter in courseware_summary:
+            total_points = 0
+            earned_points = 0
+            section_score = list()
+            for section in chapter['sections']:
+                if section['section_total'].possible == 0  and section['section_total'].earned == 0:
+                    section_score.append((section['display_name'], False))
+                elif section['section_total'].possible == section['section_total'].earned :
+                    section_score.append((section['display_name'],True))
+                else:
+                    section_score.append((section['display_name'], False))
+                total_points += section['section_total'].possible
+                earned_points += section['section_total'].earned
+            score_dict = {}
+            if float(total_points) == float(earned_points):
+                score_dict.update({'is_completed' : True})
+                score_dict.update({'sections' : dict(section_score)})
+                chapter_dict.update({chapter['display_name'] : score_dict})
+            else:
+                score_dict.update({'is_completed': False})
+                score_dict.update({'sections': dict(section_score)})
+                chapter_dict.update({chapter['display_name']: score_dict})
+
+        # See if the course is gated by one or more content milestones
+        required_content = milestones_helpers.get_required_content(course, user)
+
+        # The user may not actually have to complete the entrance exam, if one is required
+        if not user_must_complete_entrance_exam(request, user, course):
+            required_content = [content for content in required_content if not content == course.entrance_exam_id]
+
+        for chapter in chapters:
+            # Only show required content, if there is required content
+            # chapter.hide_from_toc is read-only (boo)
+            display_id = slugify(chapter.display_name_with_default)
+            local_hide_from_toc = False
+            if required_content:
+                if unicode(chapter.location) not in required_content:
+                    local_hide_from_toc = True
+
+            # Skip the current chapter if a hide flag is tripped
+            if chapter.hide_from_toc or local_hide_from_toc:
+                continue
+
+            sections = list()
+            for section in chapter.get_display_items():
+
+                active = (chapter.url_name == active_chapter and
+                          section.url_name == active_section)
+
+                chapter_display_name = chapter.display_name_with_default
+
+                if not section.hide_from_toc:
+                    section_context = {
+                        'display_name': section.display_name_with_default,
+                        'url_name': section.url_name,
+                        'format': section.format if section.format is not None else '',
+                        'due': section.due,
+                        'active': active,
+                        'graded': section.graded,
+                    }
+                    if chapter_dict[chapter_display_name]['sections'][section.display_name_with_default]:
+                        section_context['is_completed'] = True
+                    else:
+                        section_context['is_completed'] = False
+
+                    #
+                    # Add in rendering context if exam is a timed exam (which includes proctored)
+                    #
+
+                    section_is_time_limited = (
+                        getattr(section, 'is_time_limited', False) and
+                        settings.FEATURES.get('ENABLE_SPECIAL_EXAMS', False)
+                    )
+                    if section_is_time_limited:
+                        # We need to import this here otherwise Lettuce test
+                        # harness fails. When running in 'harvest' mode, the
+                        # test service appears to get into trouble with
+                        # circular references (not sure which as edx_proctoring.api
+                        # doesn't import anything from edx-platform). Odd thing
+                        # is that running: manage.py lms runserver --settings=acceptance
+                        # works just fine, it's really a combination of Lettuce and the
+                        # 'harvest' management command
+                        #
+                        # One idea is that there is some coupling between
+                        # lettuce and the 'terrain' Djangoapps projects in /common
+                        # This would need more investigation
+                        from edx_proctoring.api import get_attempt_status_summary
+
+                        #
+                        # call into edx_proctoring subsystem
+                        # to get relevant proctoring information regarding this
+                        # level of the courseware
+                        #
+                        # This will return None, if (user, course_id, content_id)
+                        # is not applicable
+                        #
+                        timed_exam_attempt_context = None
+                        try:
+                            timed_exam_attempt_context = get_attempt_status_summary(
+                                user.id,
+                                unicode(course.id),
+                                unicode(section.location)
+                            )
+                        except Exception, ex:  # pylint: disable=broad-except
+                            # safety net in case something blows up in edx_proctoring
+                            # as this is just informational descriptions, it is better
+                            # to log and continue (which is safe) than to have it be an
+                            # unhandled exception
+                            log.exception(ex)
+
+                        if timed_exam_attempt_context:
+                            # yes, user has proctoring context about
+                            # this level of the courseware
+                            # so add to the accordion data context
+                            section_context.update({
+                                'proctoring': timed_exam_attempt_context,
+                            })
+
+                    sections.append(section_context)
+            toc_chapters.append({
+                'display_name': chapter.display_name_with_default,
+                'display_id': display_id,
+                'url_name': chapter.url_name,
+                'sections': sections,
+                'is_completed' : chapter_dict[chapter.display_name_with_default]['is_completed'],
+                'active': chapter.url_name == active_chapter
+            })
+
+        return toc_chapters
+
+
 def render_accordion(user, request, course, chapter, section, field_data_cache):
     """
     Draws navigation bar. Takes current position in accordion as
@@ -163,7 +343,6 @@ def render_accordion(user, request, course, chapter, section, field_data_cache):
     """
     # grab the table of contents
     toc = toc_for_course(user, request, course, chapter, section, field_data_cache)
-
     context = dict([
         ('toc', toc),
         ('course_id', course.id.to_deprecated_string()),
@@ -290,13 +469,13 @@ def save_positions_recursively_up(user, request, field_data_cache, xmodule, cour
 
         current_module = parent
 
-
+#removed outer_atomic due to TransactionManagementError
 @transaction.non_atomic_requests
 @login_required
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @ensure_valid_course_key
-@outer_atomic(read_committed=True)
+# @outer_atomic(read_committed=True)
 def index(request, course_id, chapter=None, section=None,
           position=None):
     """
@@ -400,9 +579,12 @@ def _index_bulk_op(request, course_key, chapter, section, position):
         return redirect(reverse('course_survey', args=[unicode(course.id)]))
 
     try:
-        field_data_cache = FieldDataCache.cache_for_descriptor_descendents(
-            course_key, user, course, depth=2)
 
+        # field_data_cache = FieldDataCache.cache_for_descriptor_descendents(
+        #     course_key, user, course, depth=2)
+        # Changed function called for field_data_cache because of error-prone grade calculation
+        student = User.objects.prefetch_related("groups").get(id=request.user.id)
+        field_data_cache = grades.field_data_cache_for_grading(course, student)
         course_module = get_module_for_descriptor(
             user, request, course, field_data_cache, course_key, course=course
         )
