@@ -103,7 +103,14 @@ CELERY_QUEUES = {
 if os.environ.get('QUEUE') == 'high_mem':
     CELERYD_MAX_TASKS_PER_CHILD = 1
 
-CELERYBEAT_SCHEDULE = {}  # For scheduling tasks, entries can be added to this dict
+from celery.schedules import crontab
+
+CELERYBEAT_SCHEDULE = {}
+
+CELERYBEAT_SCHEDULE['staff-notification-every-day']={
+    'task': 'django-edx-courseware.tasks.staff_notification',
+    'schedule': crontab(minute=0, hour=7),
+}
 
 ########################## NON-SECURE ENV CONFIG ##############################
 # Things like server locations, ports, etc.
