@@ -6,7 +6,7 @@ from .exceptions import (ItemNotFoundError, NoPathToItem)
 LOGGER = getLogger(__name__)
 
 
-def path_to_location(modulestore, usage_key):
+def path_to_location(modulestore, usage_key, full_path=False):
     '''
     Try to find a course_id/chapter/section[/position] path to location in
     modulestore.  The courseware insists that the first level in the course is
@@ -80,6 +80,9 @@ def path_to_location(modulestore, usage_key):
         path = find_path_to_course()
         if path is None:
             raise NoPathToItem(usage_key)
+
+        if full_path:
+            return path
 
         n = len(path)
         course_id = path[0].course_key
