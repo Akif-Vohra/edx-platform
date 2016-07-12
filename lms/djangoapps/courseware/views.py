@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Courseware views functions
 """
@@ -1130,9 +1131,38 @@ def _progress(request, course_key, student_id):
     courseware_summary = grades.progress_summary(
         student, request, course, field_data_cache=field_data_cache, scores_client=scores_client
     )
+
+    print "courseware summary is {0}".format(courseware_summary)
     grade_summary = grades.grade(
         student, request, course, field_data_cache=field_data_cache, scores_client=scores_client
     )
+
+
+    print "*" * 20
+    print "grade_summary of the student is {0}".format(grade_summary.keys())
+    print "grade_summary ",grade_summary
+    print "*" * 20
+
+    def calculate_percent(category):
+        """
+        calculate percent for each category for progress bar
+        Args:
+            category:
+
+        Returns:
+            dict containing progress stats to create chart
+
+        # Added By Kewal
+        """
+        curriculum_weightage = float(category['weight'])
+        category_percentage = (float(category['percent'])*100)/curriculum_weightage
+        return {category['category']:round(category_percentage*100,2)}
+
+    progress_stats = {}
+    for each in grade_summary['grade_breakdown']:
+        progress_stats.update(calculate_percent(each))
+    # progress_stats.update({unicode('Bewertete lektionen') : })
+    print progress_stats,'progress_stats'
     studio_url = get_studio_url(course, 'settings/grading')
 
     if courseware_summary is None:
@@ -1149,6 +1179,8 @@ def _progress(request, course_key, student_id):
         'grade_summary': grade_summary,
         'staff_access': staff_access,
         'student': student,
+        'percentage' : round(grade_summary['percent']*100,2),
+        'progress_stats' : progress_stats,
         'passed': is_course_passed(course, grade_summary),
         'show_generate_cert_btn': show_generate_cert_btn,
         'credit_course_requirements': _credit_course_requirements(course_key, student),
