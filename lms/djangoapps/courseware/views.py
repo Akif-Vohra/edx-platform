@@ -1132,16 +1132,10 @@ def _progress(request, course_key, student_id):
         student, request, course, field_data_cache=field_data_cache, scores_client=scores_client
     )
 
-    print "courseware summary is {0}".format(courseware_summary)
+
     grade_summary = grades.grade(
         student, request, course, field_data_cache=field_data_cache, scores_client=scores_client
     )
-
-
-    print "*" * 20
-    print "grade_summary of the student is {0}".format(grade_summary.keys())
-    print "grade_summary ",grade_summary
-    print "*" * 20
 
     def calculate_percent(category):
         """
@@ -1162,7 +1156,7 @@ def _progress(request, course_key, student_id):
     for each in grade_summary['grade_breakdown']:
         progress_stats.update(calculate_percent(each))
     # progress_stats.update({unicode('Bewertete lektionen') : })
-    print progress_stats,'progress_stats'
+
     studio_url = get_studio_url(course, 'settings/grading')
 
     if courseware_summary is None:
