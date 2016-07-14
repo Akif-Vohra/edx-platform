@@ -109,4 +109,4 @@ git+https://github.com/mjrulesamrat/xblock-carousel#egg=xblock-carousel
 
 #Lynx specific custom apps
 -e git+https://github.com/mjrulesamrat/lynxceb#egg=lynxceb
--e git+https://github.com/mjrulesamrat/django-edx-courseware@a17a674360b20b3a9a879f749278c799ccf3e4f9#egg=django_edx_courseware-master
+-e git+https://github.com/mjrulesamrat/django-edx-courseware@master#egg=django_edx_courseware-master
