@@ -1196,7 +1196,8 @@ def _progress(request, course_key, student_id):
                     'is_generating': True,
                     'download_url': None
                 })
-
+    minimum_percentage = float(course.grade_cutoffs['Pass']) * 100
+    context.update({'minimum_percentage': minimum_percentage})
     with outer_atomic():
         response = render_to_response('courseware/progress.html', context)
 
