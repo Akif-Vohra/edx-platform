@@ -1163,6 +1163,14 @@ def _progress(request, course_key, student_id):
         #This means the student didn't have access to the course (which the instructor requested)
         raise Http404
 
+    total_points = 0.0
+    earned_points = 0.0
+    for chapter in courseware_summary:
+        for section in chapter['sections']:
+            total_points += section['section_total'].possible
+            earned_points += section['section_total'].earned
+
+    percentage_points = float(earned_points) * (100.0 / float(total_points))
     # checking certificate generation configuration
     show_generate_cert_btn = certs_api.cert_generation_enabled(course_key)
 
@@ -1173,7 +1181,8 @@ def _progress(request, course_key, student_id):
         'grade_summary': grade_summary,
         'staff_access': staff_access,
         'student': student,
-        'percentage' : round(grade_summary['percent']*100,2),
+        'percentage' : int(round(percentage_points)),
+        # round(grade_summary['percent']*100,2),
         'progress_stats' : progress_stats,
         'passed': is_course_passed(course, grade_summary),
         'show_generate_cert_btn': show_generate_cert_btn,
