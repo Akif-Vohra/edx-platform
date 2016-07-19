@@ -1148,9 +1148,9 @@ def _progress(request, course_key, student_id):
 
         # Added By Kewal
         """
-        curriculum_weightage = float(category['weight'])
-        category_percentage = (float(category['percent'])*100)/curriculum_weightage
-        return {category['category']:round(category_percentage*100,2)}
+        curriculum_weightage = category['weight']
+        category_percentage = (category['percent']*100)/curriculum_weightage
+        return {category['category']:int(round(category_percentage*100))}
 
     progress_stats = {}
     for each in grade_summary['grade_breakdown']:
@@ -1206,7 +1206,7 @@ def _progress(request, course_key, student_id):
                     'download_url': None
                 })
     minimum_percentage = float(course.grade_cutoffs['Pass']) * 100
-    context.update({'minimum_percentage': minimum_percentage})
+    context.update({'minimum_percentage': int(minimum_percentage)})
     with outer_atomic():
         response = render_to_response('courseware/progress.html', context)
 
