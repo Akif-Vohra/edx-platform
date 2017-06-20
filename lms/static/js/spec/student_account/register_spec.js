@@ -204,7 +204,7 @@
 
                 // Simulate manual entry of registration form data
                 $('#register-email').val(USER_DATA.email);
-                $('#register-name').val(USER_DATA.name);
+                $('#register-name').val(USER_DATA.first_name + ' ' + USER_DATA.last_name);
                 $('#register-username').val(USER_DATA.username);
                 $('#register-password').val(USER_DATA.password);
                 $('#register-level_of_education').val(USER_DATA.level_of_education);
@@ -212,6 +212,7 @@
                 $('#register-year_of_birth').val(USER_DATA.year_of_birth);
                 $('#register-mailing_address').val(USER_DATA.mailing_address);
                 $('#register-goals').val(USER_DATA.goals);
+              
 
                 // Check the honor code checkbox
                 $('#register-honor_code').prop('checked', USER_DATA.honor_code);
