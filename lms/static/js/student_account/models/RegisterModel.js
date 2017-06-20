@@ -34,9 +34,10 @@
                 if ( courseId ) {
                     data.course_id = decodeURIComponent(courseId);
                 }
-
+                
                 // Include all form fields and analytics info in the data sent to the server
                 $.extend( data, model.attributes);
+                data.name = data.first_name + ' ' + data.last_name;
 
                 $.ajax({
                     url: model.urlRoot,

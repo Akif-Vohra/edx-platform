@@ -1015,7 +1015,10 @@ def change_enrollment(request, check_access=True):
                 enroll_mode = CourseMode.auto_enroll_mode(course_id, available_modes)
                 if enroll_mode:
                     CourseEnrollment.enroll(user, course_id, check_access=check_access, mode=enroll_mode)
-            except Exception:
+            except Exception as e:
+                import traceback
+                print traceback.format_exc()
+                print e
                 return HttpResponseBadRequest(_("Could not enroll"))
 
         # If we have more than one course mode or professional ed is enabled,
@@ -1464,7 +1467,7 @@ def _do_create_account(form):
     registration.register(user)
 
     profile_fields = [
-        "name", "level_of_education", "gender", "mailing_address", "city", "country", "goals",
+        "name", "first_name", "last_name", "level_of_education", "gender", "mailing_address", "city", "country", "goals",
         "year_of_birth"
     ]
     profile = UserProfile(
