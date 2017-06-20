@@ -56,7 +56,12 @@ class Command(BaseCommand):
 
         for student, gradeset, err_msg in iterate_grades_for(course.id, enrolled_students):
             if gradeset:
-                enrollment = enrollments.get(user=student)
+                try:
+                    enrollment = enrollments.filter(user=student)[0]
+                except Exception as e:
+                    print e
+                    continue
+                
                 # First check for welcome email
                 sales_email_history, is_new = SalesEmailHistory.objects.get_or_create(enrollment=enrollment)
 
