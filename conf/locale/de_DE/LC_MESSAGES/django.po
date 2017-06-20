@@ -12793,7 +12793,7 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
-msgstr "Sie sind nicht in diesem Kurs eingeschrieben"
+msgstr "Sie sind in diesen Kurs eingeschrieben"
 
 #: lms/templates/courseware/course_about.html
 #: lms/templates/dashboard/_dashboard_course_listing.html

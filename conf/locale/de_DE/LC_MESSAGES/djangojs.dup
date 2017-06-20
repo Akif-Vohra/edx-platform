@@ -21,6 +21,24 @@ Ansicht
 Anzeigen
 
 Multiple translations found for single string.
+	String "answer"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/problem/edit.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+beantworten
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Antwort
+
+Multiple translations found for single string.
+	String "Please do not use any spaces in this field."
+	Present in files [u'common/static/common/js/components/utils/view_utils.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Bitte keine Leerzeichen in diesem Eingabefeld benutzen.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Bitte benutzen Sie keine Leerzeichen in diesem Eingabefeld
+
+Multiple translations found for single string.
 	String "Search"
 	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'common/static/common/templates/components/search-field.underscore', u'lms/djangoapps/support/static/support/templates/certificates.underscore', u'lms/djangoapps/support/static/support/templates/enrollment.underscore', u'test_root/staticfiles/cms/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/cms/common/templates/components/search-field.underscore', u'test_root/staticfiles/cms/support/templates/certificates.023aa2024657.underscore', u'test_root/staticfiles/cms/support/templates/certificates.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/components/search-field.underscore', u'test_root/staticfiles/lms/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/lms/common/templates/components/search-field.underscore', u'test_root/staticfiles/lms/support/templates/certificates.023aa2024657.underscore', u'test_root/staticfiles/lms/support/templates/certificates.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/components/search-field.6e28c7895a2b.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/components/search-field.underscore']
 Translations found were:
@@ -30,6 +48,24 @@ Suche
 Suchen
 #-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
 Suchen
+
+Multiple translations found for single string.
+	String "An unexpected error occurred.  Please try again."
+	Present in files [u'lms/djangoapps/support/static/support/js/views/certificates.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen sie es erneut.
+
+Multiple translations found for single string.
+	String "Team Name (Required) *"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Teamname (Erforderlich) *
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Teamname (Erforderich)*
 
 Multiple translations found for single string.
 	String "The country that team members primarily identify with."
@@ -43,6 +79,42 @@ Das Land mit dem sich die Teammitglieder primär identifizieren.
 Das Land mit dem sich die Teammitglieder primär identifizieren.
 
 Multiple translations found for single string.
+	String "and others"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/team_card.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+und andere
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+und anere
+
+Multiple translations found for single string.
+	String "Leave this team?"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/team_profile.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Dieses Team verlassen?
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Dieses Team verlassen ?
+
+Multiple translations found for single string.
+	String "This team is full."
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Dieses Team ist voll.
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Dieses Team is voll.
+
+Multiple translations found for single string.
+	String "Search teams"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/teams_tab.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Teams durchsuchen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Suche Teams
+
+Multiple translations found for single string.
 	String "Username"
 	Present in files [u'lms/static/coffee/src/instructor_dashboard/membership.js', u'lms/static/js/student_account/views/account_settings_factory.js', u'lms/static/js/student_profile/views/learner_profile_factory.js', u'lms/templates/financial-assistance/financial_assessment_form.underscore', u'test_root/staticfiles/cms/proctoring/templates/course_allowances.cd985d6efb88.underscore', u'test_root/staticfiles/cms/proctoring/templates/course_allowances.underscore', u'test_root/staticfiles/cms/proctoring/templates/student-proctored-exam-attempts.a419fe41737a.underscore', u'test_root/staticfiles/cms/proctoring/templates/student-proctored-exam-attempts.underscore', u'test_root/staticfiles/cms/templates/financial-assistance/financial_assessment_form.3ea5e5f1fecc.underscore', u'test_root/staticfiles/cms/templates/financial-assistance/financial_assessment_form.underscore', u'test_root/staticfiles/lms/proctoring/templates/course_allowances.cd985d6efb88.underscore', u'test_root/staticfiles/lms/proctoring/templates/course_allowances.underscore', u'test_root/staticfiles/lms/proctoring/templates/student-proctored-exam-attempts.a419fe41737a.underscore', u'test_root/staticfiles/lms/proctoring/templates/student-proctored-exam-attempts.underscore', u'test_root/staticfiles/lms/templates/financial-assistance/financial_assessment_form.3ea5e5f1fecc.underscore', u'test_root/staticfiles/lms/templates/financial-assistance/financial_assessment_form.underscore']
 Translations found were:
@@ -54,22 +126,71 @@ Nutzername
 Nutzername
 
 Multiple translations found for single string.
-	String "Your email was successfully queued for sending."
-	Present in files [u'lms/static/coffee/src/instructor_dashboard/send_email.js']
+	String "Click to change"
+	Present in files [u'lms/static/js/ccx/schedule.js', u'lms/static/js/ccx/schedule.js.c', u'lms/templates/ccx/schedule.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-Deine E-Mail wurde erfolgreich zum Senden vorbereitet.
+Zum Ändern klicken
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Klicke zum Ändern
 #-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
-Deine E-Mail wurde erfolgreich zum Senden eingereiht.
+Klicke zum Ändern
 
 Multiple translations found for single string.
-	String "Your email was successfully queued for sending. Please note that for large classes, it may take up to an hour (or more, if other courses are simultaneously sending email) to send all emails."
-	Present in files [u'lms/static/coffee/src/instructor_dashboard/send_email.js']
+	String "Student username/email field is required and can not be empty. "
+	Present in files [u'lms/static/js/certificates/models/certificate_exception.js', u'lms/static/js/certificates/models/certificate_invalidation.js']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-Deine E-Mail wurde erfolgreich in die Sendungsverarbeitung eingereiht. Bitte beachte, dass es für große Kurse mehrere Stunden (falls mehrere Kurse gleichzeitig E-Mails senden noch einmal länger) dauern kann, bis alle E-Mails versendet wurden.
+Das Benutzernamen/E-Mail-Feld wird benötigt und darf nicht leer sein.
 #-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
-Deine E-Mail wurde erfolgreich für das Senden eingereiht. Bitte beachte, dass es für große Kurse mehrere Stunden (falls mehrere Kurse gleichzeitig E-Mails senden noch einmal länger) dauern kann bis alle E-Mails versendet wurden .
+Das Benutzername/E-Mail Feld wird benötigt und darf nicht leer sein.
+
+Multiple translations found for single string.
+	String "Hide notes"
+	Present in files [u'lms/static/js/edxnotes/views/notes_visibility_factory.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Notizen verstecken
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Notiz verstecken
+
+Multiple translations found for single string.
+	String "Show notes"
+	Present in files [u'lms/static/js/edxnotes/views/notes_visibility_factory.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Notizen anzeigen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Zeige Notizen
+
+Multiple translations found for single string.
+	String "Recent Activity"
+	Present in files [u'lms/static/js/edxnotes/views/tabs/recent_activity.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Kürzliche Aktivität
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Aktuelle Aktivität
+
+Multiple translations found for single string.
+	String "Selected tab"
+	Present in files [u'lms/static/js/groups/views/cohort_editor.js', u'lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-editor.4f480fe87632.underscore', u'test_root/staticfiles/cms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-editor.4f480fe87632.underscore', u'test_root/staticfiles/lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Ausgewählter Tab
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Ausgewähltes Tab
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Ausgewähltes Tab
+
+Multiple translations found for single string.
+	String "Enter a username or email."
+	Present in files [u'lms/static/js/groups/views/cohort_editor.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Benutzername oder E-Mail-Adresse eingeben
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Benutzernamen oder E-Mail-Adresse eingeben
 
 Multiple translations found for single string.
 	String "Add Cohort"
@@ -92,6 +213,15 @@ Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen?
 Dürfen Teilnehmer sich selbst Zertifikate für diesen Kurs ausstellen?
 
 Multiple translations found for single string.
+	String "Full Profile"
+	Present in files [u'lms/static/js/student_profile/views/learner_profile_factory.js']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Vollständiges Profil
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+Volles Profil
+
+Multiple translations found for single string.
 	String "Staff"
 	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/cms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/common/templates/discussion/post-user-display.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.47f819ed3b25.underscore', u'test_root/staticfiles/lms/xmodule_js/common_static/common/templates/discussion/post-user-display.underscore']
 Translations found were:
@@ -110,6 +240,15 @@ Translations found were:
 Anfangsdatum:
 #-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
 Anfangsdatum
+
+Multiple translations found for single string.
+	String "remove all"
+	Present in files [u'lms/templates/ccx/schedule.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/cms/templates/ccx/schedule.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.cc25650a17d6.underscore', u'test_root/staticfiles/lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Alle entfernen
+#-#-#-#-#  release-dogwood-js.po (edx-platform)  #-#-#-#-#
+alle entfernen
 
 Multiple translations found for single string.
 	String "Amount"
