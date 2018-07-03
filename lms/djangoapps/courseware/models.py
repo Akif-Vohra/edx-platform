@@ -185,8 +185,8 @@ class StudentModuleHistory(models.Model):
                                                  max_grade=instance.max_grade)
             history_entry.save()
 
-    def __unicode__(self):
-        return unicode(repr(self))
+    #def __unicode__(self):
+    #    return unicode(repr(self))
 
 
 class XBlockFieldBase(models.Model):

@@ -20,10 +20,13 @@ from courseware.courses import get_course
 from django.conf import settings
 from customizations.models import SalesEmailHistory
 from customizations.utils import send_sales_email, add_user_to_mailchimp, add_user_email_to_workflow
+from datetime import datetime
 
 import logging
 import os
 
+COURSE_ID = 'course-v1:LYNX+01+2017'
+SECOND_COURSE_ID = 'course-v1:LYNX+02+2018'
 
 class Command(BaseCommand):
     """
@@ -40,14 +43,20 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
 
         try:
-            course_key = CourseKey.from_string('course-v1:LYNX+001+2016')
+            course_key = CourseKey.from_string(COURSE_ID)
         except InvalidKeyError:
-            course_key = SlashSeparatedCourseKey.from_deprecated_string('course-v1:LYNX+001+2016')
+            course_key = SlashSeparatedCourseKey.from_deprecated_string(COURSE_ID)
 
         course = get_course(course_key)
+        
+        #Day After GDPR went into effect
+        date_after_gdpr = datetime(2018, 5, 26)
 
-        enrollments = CourseEnrollment.objects.filter(course_id=course.id, is_active=True)
-        enrolled_students = CourseEnrollment.objects.users_enrolled_in(course_id=course.id)
+        #This makes sure we do not send emails to people who registered before GDPR went into effect
+
+        enrollments = CourseEnrollment.objects.filter(course_id=course.id, is_active=True, user__date_joined__gte=date_after_gdpr)
+        enrolled_students = CourseEnrollment.objects.users_enrolled_in(course_id=course.id).filter(date_joined__gte=date_after_gdpr)
+
 
         email_dict = dict(motivational_email=[],
                           sales_funnel_email=[],
@@ -75,7 +84,7 @@ class Command(BaseCommand):
 
                 print "Student with email {0} has been enrolled for {1} days and has achieved {2} percent so far".format(
                     user.email, time_diff, percent)
-
+                
                 if (time_diff >= 7) and (time_diff < 14) and percent < 0.70:
                     if not sales_email_history.motivational_email_sent:
                         add_user_email_to_workflow('MOTIVATIONAL_EMAIL', enrollment)
@@ -97,6 +106,54 @@ class Command(BaseCommand):
                         add_user_email_to_workflow('MORE_THAN_80', enrollment)
                         sales_email_history.congratulation_email_sent = True
 
+                else:
+                    print "No conditions matched"
+
+                sales_email_history.save()
+        
+        print "Lets try for the second course"
+        try:
+            course_key = CourseKey.from_string(SECOND_COURSE_ID)
+        except InvalidKeyError:
+            course_key = SlashSeparatedCourseKey.from_deprecated_string(COURSE_ID)
+
+        course = get_course(course_key)
+
+        enrollments = CourseEnrollment.objects.filter(course_id=course.id, is_active=True, user__date_joined__gte=date_after_gdpr)
+        enrolled_students = CourseEnrollment.objects.users_enrolled_in(course_id=course.id).filter(date_joined__gte=date_after_gdpr)
+
+        email_dict = dict(motivational_email=[],
+                          sales_funnel_email=[],
+                          promote_lynx_account_email=[],
+                          congratulation_email=[])
+
+        for student, gradeset, err_msg in iterate_grades_for(course.id, enrolled_students):
+            if gradeset:
+                try:
+                    enrollment = enrollments.filter(user=student)[0]
+                except Exception as e:
+                    print e
+                    continue
+                
+                # First check for welcome email
+                sales_email_history, is_new = SalesEmailHistory.objects.get_or_create(enrollment=enrollment)
+
+                # Get User Enrollments
+                user = enrollment.user
+
+                enrolled_at = enrollment.created
+
+                time_diff = (timezone.now() - enrolled_at).days
+                percent = gradeset['percent']
+
+                print "Student with email {0} has been enrolled for {1} days and has achieved {2} percent so far".format(user.email, time_diff, percent)
+            
+                if percent >= 0.80:
+                    if not sales_email_history.congratulation_email_sent:
+                        add_user_email_to_workflow('MORE_THAN_80_SECOND_COURSE', enrollment)
+                        sales_email_history.congratulation_email_sent = True
+                        pass
+                        
                 else:
                     print "No conditions matched"
 

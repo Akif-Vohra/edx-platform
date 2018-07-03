@@ -7,18 +7,14 @@ API_KEY = settings.EMAIL_HOST_PASSWORD
 MAILCHIMP_API_KEY = settings.MAILCHIMP_API_KEY
 MAILCHIMP_USER_NAME = settings.MAILCHIMP_USER_NAME
 MAILCHIMP_OPTION_COURSE_LIST_ID = settings.MAILCHIMP_OPTION_COURSE_LIST_ID
+MAILCHIMP_OPTION_SECOND_COURSE_LIST_ID = settings.MAILCHIMP_OPTION_SECOND_COURSE_LIST_ID
 
 mail_chimp_client = MailChimp(MAILCHIMP_USER_NAME, MAILCHIMP_API_KEY)
 
-EMAIL_TYPE_TO_WORKFLOW_EMAIL_ID = {
-    
-    'HELLO_EMAIL' : dict(workflow_id='09d0d88691', workflow_email_id='4067917b88'),
-    'MOTIVATIONAL_EMAIL' : dict(workflow_id='09d0d88691', workflow_email_id='6040f5e43e'),
-    'LESS_THAN_50' : dict(workflow_id='09d0d88691', workflow_email_id='af9c43bed0'),
-    'MORE_THAN_80' : dict(workflow_id='09d0d88691', workflow_email_id='0bdd6c6e00'),
-    #This ones different. Please note workflow_id
-    'LESS_THAN_30' : dict(workflow_id='355eed901a', workflow_email_id='5500d7cc61'),
-}
+import logging
+AUDIT_LOG = logging.getLogger("audit")
+
+EMAIL_TYPE_TO_WORKFLOW_EMAIL_ID = settings.EMAIL_TYPE_TO_WORKFLOW_EMAIL_ID
 
 def send_mail_transactional(template_name, email_to, global_merge_vars):
     mandrill_client = mandrill.Mandrill(API_KEY)
@@ -64,8 +60,18 @@ def get_option_kurse_list():
 
     return list_id
 
-def add_user_to_mailchimp(enrollment):
-    list_id = MAILCHIMP_OPTION_COURSE_LIST_ID #This should never change.. Unless mailchimp goes crazy
+def add_user_to_mailchimp(enrollment, course_id):
+
+    if course_id in "LYNX+01+2017":
+        list_id = MAILCHIMP_OPTION_COURSE_LIST_ID #This should never change.. Unless mailchimp goes crazy
+
+    elif course_id in "LYNX+02+2018":
+        list_id = MAILCHIMP_OPTION_SECOND_COURSE_LIST_ID
+
+    else:
+        return
+
+    print "Adding {0} to list {1}".format( enrollment.user, list_id )
     user = enrollment.user
     FNAME = user.profile.first_name
     LNAME = user.profile.last_name
@@ -78,13 +84,18 @@ def add_user_to_mailchimp(enrollment):
     else:
         SALUTATION = ''
 
-    global_merge_vars = dict(FNAME=FNAME, LNAME=LNAME, SALUTATION=SALUTATION, TITLE=TITLE)
-
-    mail_chimp_client.lists.members.create(list_id, {
-        'email_address': user.email,
-        'status': 'subscribed',
-        'merge_fields': global_merge_vars
-        })
+    global_merge_vars = dict(FNAME=FNAME, LNAME=LNAME, SALUTATION=SALUTATION, TITLE=TITLE if TITLE else '')
+    print global_merge_vars
+    print list_id
+    print user.email
+    try:
+        mail_chimp_client.lists.members.create(list_id, {
+            'email_address': user.email,
+            'status': 'subscribed',
+            'merge_fields': global_merge_vars
+            })
+    except Exception as e:
+        AUDIT_LOG.error("Error while adding user {0} in mailchimp list {2}".format(user.email, e))
 
 def add_user_email_to_workflow(email_type, enrollment):
     print "sending {0} to user {1}".format(email_type, enrollment.user.email)
@@ -96,6 +107,6 @@ def add_user_email_to_workflow(email_type, enrollment):
             'email_address' : email_address
             })
     except Exception as e:
-        print "Because this is Graceful!"
+        AUDIT_LOG.error("Error adding user to workflow {0} {1} {2}".format(email_type, enrollment, e))
 
 
