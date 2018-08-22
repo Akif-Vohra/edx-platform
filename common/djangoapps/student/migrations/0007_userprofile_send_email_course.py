@@ -7,13 +7,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('course_modes', '0002_coursemode_expiration_datetime_is_explicit'),
+        ('student', '0006_auto_20170620_0853'),
     ]
 
     operations = [
-        migrations.AlterField(
-            model_name='coursemode',
-            name='expiration_datetime_is_explicit',
+        migrations.AddField(
+            model_name='userprofile',
+            name='send_email_course',
             field=models.BooleanField(default=False),
         ),
     ]

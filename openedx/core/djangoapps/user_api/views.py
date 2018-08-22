@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """HTTP end-points for the User API. """
 import copy
 from opaque_keys import InvalidKeyError
@@ -169,6 +170,7 @@ class RegistrationView(APIView):
         "goals",
         "honor_code",
         "terms_of_service",
+        "send_email_course"
     ]
 
     # This end-point is available to anonymous users,
@@ -747,6 +749,30 @@ class RegistrationView(APIView):
             error_messages={
                 "required": error_msg
             }
+        )
+    
+    def _add_send_email_course_field(self, form_desc, required=True):
+        """Add Send Email Course field to a form description.
+
+        Arguments:
+            form_desc: A form description
+
+        Keyword Arguments:
+            required (bool): Whether this field is required; defaults to True
+
+        """
+        # Translators: "Terms of Service" is a legal document users must agree to
+        # in order to register a new account.
+        label = _(u"Mit dem Klick auf 'Konto erstellen' erkläre ich mich mit dem Empfang von Informationen von LYNX einverstanden. Für diesen Zweck wird LYNX meine bis dahin getätigten Angaben speichern. Ich erlaube LYNX, gegebenenfalls schriftlich, telefonisch oder per E-Mail Kontakt mit mir aufzunehmen, um mich über Produkte und Dienstleistungen zu informieren. Die Erlaubnis kann jederzeit schriftlich an service@lynxbroker.de widerrufen werden ")
+
+        # Translators: "Terms of Service" is a legal document users must agree to
+        # in order to register a new account.
+        form_desc.add_field(
+            "send_email_course",
+            label=label,
+            field_type="checkbox",
+            default=False,
+            required=False,
         )
 
     def _add_terms_of_service_field(self, form_desc, required=True):

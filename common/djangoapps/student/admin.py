@@ -135,8 +135,8 @@ class LinkedInAddToProfileConfigurationAdmin(admin.ModelAdmin):
 
 class CourseEnrollmentAdmin(admin.ModelAdmin):
     """ Admin interface for the CourseEnrollment model. """
-    list_display = ('id', 'course_id', 'mode', 'user', 'is_active',)
-    list_filter = ('mode', 'is_active',)
+    list_display = ('id', 'course_id', 'mode', 'user', 'is_active', 'created')
+    list_filter = ('mode', 'is_active', 'course_id')
     raw_id_fields = ('user',)
     search_fields = ('course_id', 'mode', 'user__username',)
 
